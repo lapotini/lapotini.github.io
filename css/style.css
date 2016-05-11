@@ -1,0 +1,282 @@
+
+body{
+ background-color: #BDBAA0;
+}
+
+.header{
+  width: 960px;
+
+  margin: 0 auto;
+  background-color: #ddd;
+  padding-top: 25px;
+}
+
+
+
+/*      jQaruesel      */
+
+.wrap_jcarousel{
+  position: relative;
+}
+.jcarousel-prev,
+.jcarousel-next {
+  position: absolute;
+  background-image: url(../img/button.png);
+  width: 50px;
+  height: 50px;
+  top: 175px;
+}
+.jcarousel-prev{
+left: -51px;}
+
+.jcarousel-next{
+  background: url(../img/button.png) 0 -50px;
+  right: -51px;
+}
+
+/* jQaruesel standart settings */
+
+.jcarousel img {
+    max-width: 100%;
+    height: auto;
+}
+.jcarousel {
+   height: 400px;
+   border: solid 10px white;
+   overflow: hidden;
+}
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+}
+.jcarousel li{
+    float: left;
+}
+
+
+     /*  text   */
+  .text:before,
+  .checkbox_container:before {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+  .text{
+    font-family: Arial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 20px;
+
+  }
+
+
+
+.checkbox_container{
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+.name_Checkbox{
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  margin-bottom: 5px;
+}
+/* CHECKOBOX CSS*/
+
+
+.checkCss div{
+  margin-bottom: 5px;
+}
+  .checkCss{
+    float: left;
+    width: 40%;
+   }
+   .checkJS{
+    float: left;
+     width: 40%;
+   }
+   .checkJS label,
+   .checkCss label{
+     display: inline-block;
+   }
+   .checkCss input{
+     display: none;
+   }
+
+
+   .checkCss label:after{
+     content: " ";
+	   display: inline-block;
+     background: url(../img/check.png) ;
+     width: 18px;
+     height: 18px;
+     position: relative;
+     top: 3px;
+     right: -5px;
+   }
+   .checkCss input[type=checkbox]:checked + label:after {
+     background-position: -19px 0;
+   }
+
+    /*label:hover:after {
+      background-position: -19px 0;
+    }*/
+
+
+
+
+     /*  menu   */
+ .content{
+   width: 960px;
+   margin: 0 auto;
+   padding: 25px;
+  }
+
+
+.menu{
+  width: 90%;
+  background: #444;
+  background: -moz-linear-gradient(#444, #111);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+  background: -webkit-linear-gradient(#444, #111);
+  background: -o-linear-gradient(#444, #111);
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+  background: linear-gradient(#444, #111);
+  border-radius: 7px;
+  padding-left: 50px;
+
+}
+.menu li{
+  display: inline-block;
+  color: grey;
+  font-size: 20px;
+   font-family: Arial, sans-serif;;
+  /*margin-right: 25px;*/
+  padding: 8px 15px 8px 15px;
+
+  position: relative;
+
+}
+
+.menu a{
+  color:inherit;
+  text-decoration: none;
+
+}
+.menu__sub{
+  min-width: 155px;
+  width: 100%;
+
+visibility: hidden;
+text-align: left;
+background: #444;
+background: -moz-linear-gradient(#444, #111);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+background: -webkit-linear-gradient(#444, #111);
+background: -o-linear-gradient(#444, #111);
+background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+background: linear-gradient(#444, #111);
+position: absolute;
+left: 0%;
+z-index: 20;
+}
+
+.menu__sub li{
+
+  padding: 10px 10px 10px 10px;
+  border-bottom: solid 1px grey;
+  position: relative;
+}
+.menu__sub li:last-child{
+  border-bottom: solid 0 ;
+}
+
+.menu li:hover .menu__sub{
+
+  /*visibility: visible;*/
+  position: absolute;
+  /*top:100%;*/
+}
+
+.menu li:hover{
+  background: blue;
+  color: white;
+}
+
+.menu__sub li{
+  display: block;
+}
+
+.menu__sub2{
+  display: none;
+  /*visibility: hidden;*/
+  background: #444;
+  background: -moz-linear-gradient(#444, #111);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+  background: -webkit-linear-gradient(#444, #111);
+  background: -o-linear-gradient(#444, #111);
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+  background: linear-gradient(#444, #111);
+  position: absolute;
+  top:0;
+  min-width: 150px;
+  width: 100%;
+}
+
+.menu__sub2 li{
+  padding: 10px;
+
+}
+
+.menu__sub li:hover .menu__sub2{
+
+  /*visibility: visible;*/
+  position: absolute;
+
+  left: 90%;
+
+}
+.menu .parent:after{
+  border-top: solid 2px grey;
+  border-left: solid 2px grey;
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 6px;
+  -webkit-transform: rotate(135deg);
+     -moz-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+       -o-transform: rotate(135deg);
+          transform: rotate(-135deg);
+          margin: 0 0 3px 7px;
+}
+
+
+
+ /*            CHECKBOX jQuery          */
+
+ 		.decor_checkbox span input[type="checkbox"]{
+ 			display: none;
+ 		}
+ 		.decor_checkbox{
+ 			clear: both;
+      width: 155px;
+ 			margin-bottom: 12px;
+ 		}
+ 		.decor_checkbox span {
+ 			display: block;
+ 			float:left;
+ 			cursor: pointer;
+ 			width: 16px;
+ 			height: 16px;
+ 			background: url('../img/checkboxJS.png') no-repeat 0 0;
+ 			margin-right:10px;
+ 		}
+ 		.check_active span{
+ 			background-position: 0 -16px;
+ 		}
