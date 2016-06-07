@@ -1,192 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>dz 9,10</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/jquery.formstyler.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
-  <script src="js/jquery.jcarousel.min.js"></script>
-  <script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
-  <!-- <script src="js/jScrollPane.js"></script> -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>final</title>
 
-  <script src="js/script.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="css/dist/reset.css">
+    <link rel="stylesheet" href="css/dist/style.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.jcarousel.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--[if lt IE 9]>
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!--[if lt IE 9]>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+    </head>
+  <body>
+    <div class="promo">
+      <header class="header">
+        <a class="header__logIn" href="">Log in</a>
+        <a class="header__signUp" href="">Sign up</a>
+        <h3 class="header__title">URLAUBSGLÜCK</h3>
+      </header>
+      <h2 class="promo__head">SHARE YOUR HOLIDAY DREAMS</h2>
+      <h3 class="promo__head2">And find the perfect partner to fullfill it</h3>
+      <button class="button" type="button" name="findPartner">Find your holiday partner</button>
 
- <header class="header">
+    </div>
 
-   <div class="wrap_jcarousel">
-     <div class="jcarousel">
-       <ul id="mycarousel" class="jcarousel-skin-tango">
-         <li><img alt src="img/1.jpg"/></li>
-         <li><img src="img/2.jpg" alt=""/></li>
-         <li><img src="img/3.jpg" alt=""/></li>
-         <li><img src="img/4.jpg" alt=""/></li>
-         <li><img src="img/5.jpg" alt=""/></li>
-         <li><img src="img/6.jpg" alt=""/></li>
-         <li><img src="img/7.jpg" alt=""/></li>
-         <li><img src="img/8.jpg" alt=""/></li>
+    <section class="howItWorks">
+      <h3 class="howItWorks__head">How Urlaubsglück works?</h3>
+      <article class="step">
+        <div class="jcarousel">
+          <ul>
+            <li><img  class="step__image" src="img/step1.jpg" alt="" /></li>
+            <li><img  class="step__image" src="img/step2.jpg" alt="" /></li>
+            <li><img  class="step__image" src="img/step3.jpg" alt="" /></li>
+          </ul>
+        </div>
+        <a class="jcarousel-prev" href=""></a>
+        <a class="jcarousel-next" href="#"></a>
+        <button class="buttonStep" type="button" name="findPartner">STEP 1</button>
+        <h6 class="step__title">Sed leo enim, condimentum</h6>
+        <span class="step__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</span>
+      </article>
+
+      <article class="step">
+        <div class="jcarousel">
+          <ul>
+            <li><img  class="step__image" src="img/step2.jpg" alt="" /></li>
+            <li><img  class="step__image" src="img/step1.jpg" alt="" /></li>
+            <li><img  class="step__image" src="img/step3.jpg" alt="" /></li>
+          </ul>
+        </div>
+        <a class="jcarousel-prev" href=""></a>
+        <a class="jcarousel-next" href="#"></a>
+        <button class="buttonStep bst2" type="button" name="findPartner">STEP 2</button>
+        <h6 class="step__title st2">Morbi velit risus</h6>
+        <span class="step__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</span>
+      </article>
+
+      <article class="step">
+        <div class="jcarousel">
+          <ul>
+            <li><img  class="step__image" src="img/step3.jpg" alt="" /></li>
+            <li><img  class="step__image" src="img/step2.jpg" alt="" /></li>
+            <li><img  class="step__image" src="img/step1.jpg" alt="" /></li>
+          </ul>
+        </div>
+        <a class="jcarousel-prev" href=""></a>
+        <a class="jcarousel-next" href="#"></a>
+        <button class="buttonStep" type="button" name="findPartner">STEP 3</button>
+        <h6 class="step__title">Sed leo enim, condimentum</h6>
+        <span class="step__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</span>
+      </article>
+
+    </section>
+
+    <section class="partners">
+        <h3 class="partners__head">Meet a partner for your best holiday</h3>
+        <div class="partnerContainer">
+          <figure class="partners__foto"></figure>
+          <h5 class="partners__name"><a href="#">Bradley Hunter</a></h5>
+          <span class="partners__info">Based in Chicago. I love playing tennis and loud music.</span>
+        </div>
+
+        <div class="partnerContainer">
+          <figure class="partners__foto foto2"></figure>
+          <h5 class="partners__name"><a href="">Heather Walker</a></h5>
+          <span class="partners__info">I'm a happy person that loves cats and climbing on mountains.</span>
+        </div>
+
+        <div class="partnerContainer">
+          <figure class="partners__foto foto3"></figure>
+          <h5 class="partners__name"><a href="#">Lucas Marsha</a></h5>
+          <span class="partners__info">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</span>
+        </div>
+
+        <div class="partnerContainer">
+          <figure class="partners__foto foto4"></figure>
+          <h5 class="partners__name"><a href="">Bradley Hunter</a></h5>
+          <span class="partners__info">Based in Chicago. I love playing tennis and loud music.</span>
+        </div>
+        <button class="butonPartners" type="button" name="seePartners">See other partners</button>
+
+    </section>
+
+
+
+
+    <div class="searchPartners">
+      <h3 class="searchPartners__head">Discover holiday activity ideas</h3>
+      <div class="grid">
+        <div class="gutter-sizer"></div>
+        <script type="text/template" id="html">
+
+
+          <% for(var i = 0; i < 7 && i < hits.length; i++) {  %>
+            <div class="grid-item"><img src=" <%= hits[i].webformatURL %> " alt="" /><a class="gridWord" target="_blank" href="<%= hits[i].pageURL %>"><%= hits[i].tags.split(", ", 1) %></a></div>
+
+
+
+           <% }; %>
+
+        </script>
+
+      </div>
+      <h3 class="searchPartners__head">Discover holiday activity ideas</h3>
+      <h4 class="searchPartners__head2">Hi! What are your holiday interests?</h4>
+      <div class="search">
+        <input class="search__input" type="text" name="searchIinterests" placeholder="Enter your interests">
+        <button class="search__button" type="button" name="button">Search partners</button>
+      </div>
+    </div>
+
+
+
+    <footer class="footer">
+      <h3 class="footer__title">URLAUBSGLÜCK</h3>
+      <nav class="footer__menu">
+        <h4 class="footer__menu__head">Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
         </ul>
-      </div>
-      <a class="jcarousel-prev" href=""></a>
-      <a class="jcarousel-next" href="#"></a>
-    </div>
-
- </header>
-
-
- <section class="content">
-
-    <nav class="menu">
-      <ul>
-        <li><a href="#" >Menu 1</a></li>
-        <li class="parent" >
-          <a href="#">Menu 2</a>
-          <ul class="menu__sub">
-            <li><a href="#">SubMenu 1</a></li>
-            <li><a href="#">SubMenu 2</a></li>
-            <li><a href="#">SubMenu 3</a>
-
-              <ul class="menu__sub2">
-                <li><a href="#">Sub2Menu 1</a></li>
-                <li><a href="#">Sub2Menu 2</a></li>
-                <li><a href="#">Sub2Menu 3</a></li>
-                <li><a href="#">Sub2Menu 4</a></li>
-               </ul>
-
-            </li>
-            <li><a href="#">SubMenu 4</a></li>
-           </ul>
-         </li>
-        <li><a href="#">Menu 3</a></li>
-        <li class="parent">
-          <a  href="#">Menu 4 very long</a>
-          <ul class="menu__sub">
-            <li><a href="#">SubMenu 1</a></li>
-            <li>
-              <a href="#">SubMenu 2</a>
-
-              <ul class="menu__sub2">
-                <li><a href="#">Sub2Menu 1</a></li>
-                <li><a href="#">Sub2Menu 2</a></li>
-                <li><a href="#">Sub2Menu 3</a></li>
-                <li><a href="#">Sub2Menu 4</a></li>
-               </ul>
-
-             </li>
-            <li><a href="#">SubMenu 3</a></li>
-            <li ><a href="#">SubMenu 4</a></li>
-           </ul>
-         </li>
-        <li><a href="#">Menu 5</a></li>
-      </ul>
-    </nav>
-
-
-    <div class="text">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-
-     </div>
-
-   <div class="checkbox_container">
-
-     <div class="checkCss">
-       <h2 class="name_Checkbox"> CHECKBOX CSS</h2>
-      <div>
-       <input type="checkbox" id="ch1" >
-       <label for="ch1">Check css 1</label>
-      </div>
-      <div>
-        <input type="checkbox" id="ch2" >
-        <label for="ch2">Check css 2</label>
-      </div>
-      <div>
-        <input type="checkbox" id="ch3" >
-        <label for="ch3">Check css 3</label>
-      </div>
-      </div>
-
-
-     <div class="checkJS">
-            <h2 class="name_Checkbox"> CHECKBOX javaScript</h2>
-           <div class="decor_checkbox">
-         		<span>
-         			<input type="checkbox" />
-         		</span>
-         		<label>Check javaScript 1</label>
-         	</div>
-
-         	<div class="decor_checkbox">
-         		<span>
-         			<input type="checkbox" />
-         		</span>
-         		<label>Check javaScript 2</label>
-         	</div>
-
-         	<div class="decor_checkbox">
-         		<span>
-         			<input type="checkbox" />
-         		</span>
-         		<label>Check javaScript 3</label>
-         	</div>
-     </div>
-
-   </div>
-
-   <div class="select">
-     <form action="#">
-       <div class="lineForm">
-         <label>Селект </label>
-         <select class="styler" id="country"  tabindex="2">
-           <option value="aa">Country 1</option>
-           <option value="bb">Country 2</option>
-           <option value="cc/">Country 3</option>
-           <option value="dd">Country 4</option>
-           <option value="ee">Country 5</option>
-           <option value="ff">Country 6</option>
-           <option value="jj">Country 7</option>
-           <option value="8">Country 8</option>
-           <option value="9">Country 9</option>
-           <option value="10">Country 10</option>
-           <option value="11">Country 11</option>
-           <option value="12">Country 12</option>
-           <option value="10">Country 13</option>
-           <option value="11">Country 14</option>
-           <option value="12">Country 15</option>
-           <option selected="selected" value="1000">Выберите другое значение...</option>
-         </select>
-       </div>
-     </form>
-    </div>
-
-     <div class="text">
-       <p>
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
-
-     </div>
+      </nav>
+      <h4 class="footer__partners"><a href="">Partners</a></h4>
+      <p class="logo"><a href="#">DESIGNED BY</a></p>
+    </footer>
 
 
 
-
-
-
-
-
-
-
-
-
-
- </section>
-
-
-
-</body>
+  </body>
 </html>

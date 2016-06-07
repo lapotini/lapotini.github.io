@@ -1,0 +1,598 @@
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/montserrat-bold/montserrat-bold-webfont.eot');
+    src: url('../../fonts/montserrat-bold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/montserrat-bold/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/montserrat-bold/montserrat-bold-webfont.woff') format('woff'),
+         url('../../fonts/montserrat-bold/montserrat-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto-light/roboto-light-webfont.eot');
+    src: url('../../fonts/roboto-light/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/roboto-light/roboto-light-webfont.woff2') format('woff2'),
+         url('../../fonts/roboto-light/roboto-light-webfont.woff') format('woff'),
+         url('../../fonts/roboto-light/roboto-light-webfont.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+$colorBlack: #333333;
+
+@mixin fontStack ($color, $size) {
+  & {
+    font-family: 'Montserrat', sans-serif;
+    color: $color;
+    font-size: $size;
+
+  }
+
+}
+
+@mixin clearfix() {
+  &:before {
+    clear: both;
+  }
+  &:after {
+    clear: both;
+  }
+}
+@mixin visitedHover ($colorVisited, $colorHover) {
+
+  &:visited{
+    color: $colorVisited;
+  }
+  &:hover{
+    color: $colorHover;
+  }
+
+}
+
+@import 'style768';
+@import 'styleDesktop';
+
+@media screen and (max-width: 479px) {
+
+  %btn {
+    display: block;
+    background-color: #ff4e50;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0;
+    &:hover{
+      text-shadow: 3px -2px 8px rgba(255, 255, 255, 1);
+      box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 4px 15px 0 rgba(0,0,0,0.19);
+    }
+  }
+
+
+
+
+
+
+
+ .promo{
+   max-width: 320px;
+   height: 526px;
+   margin: 0 auto;
+   background-image: url(../../img/promo.jpg);
+   background-position: -406px -6px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-top: 22px;
+ }
+
+  .header{
+    text-align: center;
+    &__logIn,
+    &__signUp{
+        display: inline-block;
+        line-height: 32px;
+        @include fontStack(white, 14px);
+        padding: 0 17px;
+        border-radius: 20px;
+         border: 2px solid rgba(0,0,0,0);
+        &:hover{
+          border: 2px solid white;
+          text-shadow: 3px -2px 8px rgba(255, 255, 255, 1);
+        }
+        &:visited{
+          color:white;
+        }
+    }
+
+    &__signUp{
+      margin-left: -1%;
+      margin-right: 6%;
+    }
+     &__title{
+       margin-top: 117px;
+       letter-spacing: 1px;
+       @include fontStack(white, 20px);
+     }
+
+   }
+
+
+ .promo__head{
+   width: 90%;
+   @include fontStack(white, 30px);
+   margin: 30px auto 0 auto;
+   line-height: 36px;
+   text-align: center;
+ }
+
+ .promo__head2{
+   width: 70%;
+   margin: 9px auto 16px auto;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   line-height: 21px;
+   text-align: center;
+ }
+
+ .button{
+   margin: 0 auto;
+   @include fontStack(white, 14px);
+   padding: 0 50px;
+   line-height: 40px;
+   @extend %btn;
+
+ }
+
+/////////////////////////////////////////HOW IT WORKS
+// CAROUSEL/////
+.jcarousel {
+   position: relative;
+   overflow: hidden;
+}
+
+.jcarousel ul {
+   width: 20000em;
+   position: relative;
+   list-style: none;
+
+  }
+
+.jcarousel li {
+   float: left;
+}
+
+.jcarousel-prev, .jcarousel-next{
+ position: absolute;
+ width: 30px;
+ height: 55px;
+ background-image: url(../../img/nextPrev.png);
+ z-index: 5;
+ content: "";
+ top: 38%;
+}
+.jcarousel-prev{
+ left: 7%;
+}
+.jcarousel-next{
+right: 7%;
+background-position: -32px 0;
+}
+// CAROUSEL/////
+
+
+
+.howItWorks{
+  max-width: 320px;
+  height: auto;
+  margin: 30px auto 0 auto;
+  background-color: white;
+    &__head{
+      text-align: center;
+      display: block;
+      margin-bottom: 17px;
+      @include fontStack($colorBlack, 22px);
+    }
+
+}
+
+.step{
+  height: 240px;
+  width: 94%;
+  margin: 0 auto 10px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+
+    &__image{
+      z-index: 1;
+
+    }
+    &__title{
+      position: absolute;
+      display: block;
+      @include fontStack(white, 24px);
+      top: 105px;
+      left: 20px;
+      line-height: 28px;
+      z-index: 3;
+    }
+    &__text{
+      width: 90%;
+      position: absolute;
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      color: #cccccc;
+      bottom: 17px;
+      left:20px;
+      line-height: 16px;
+      z-index: 3;
+    }
+}
+
+.buttonStep{
+  display: block;
+  position: absolute;
+  top: 69px;
+  left: 22px;
+  @include fontStack(white, 10px);
+  letter-spacing: 2px;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  line-height: 20px;
+  padding: 0 13px;
+  border: 0;
+  z-index: 3;
+  cursor: pointer;
+  &:hover{
+    text-shadow: 3px -2px 8px rgba(255, 255, 255, 1);
+  }
+}
+
+.st2{
+  top: 134px;
+  left: 19px;
+}
+.bst2{
+  top: 99px;
+  left: 20px;
+}
+
+
+
+
+/////////////////////////////////////////Partners
+
+.partners{
+  max-width: 320px;
+
+  margin: 36px auto 0 auto;
+  background-color: white;
+     &__head{
+       width: 98%;
+       text-align: center;
+       line-height: 25px;
+       display: block;
+       margin-bottom: 15px;
+       @include fontStack($colorBlack, 22px);
+      }
+
+    &__foto {
+      width: 122px;
+      height: 120px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      content: "";
+      background-image: url(../../img/spritePartners.jpg);
+    }
+    &__foto:after{
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      // margin: 0 auto;
+      top: 84px;
+      right: -2px;
+      text-align: center;
+      content: "";
+      background-image: url(../../img/spriteIcon.png);
+      z-index: 2;
+
+    }
+
+    &__name {
+       @include fontStack($colorBlack, 14px);
+       margin: 20px auto 0 auto;
+       text-align: center;
+       a:visited{
+         color:$colorBlack
+       }
+       a:hover{
+         color:#ddd;
+       }
+    }
+    &__info {
+      color: #666666;
+      width: 68%;
+      display: block;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      margin: 15px auto 0 auto;
+      text-align: center;
+      line-height: 17px;
+
+    }
+
+}
+
+  .partnerContainer{
+    margin-bottom: 26px;
+
+  }
+
+    .foto2{
+      background-position: -123px 0;
+      &:after{
+        background-position: -42px 0;
+      }
+    }
+    .foto3{
+      background-position: 245px 0;
+      &:after{
+        background-position: 82px 0;
+      }
+    }
+
+    .foto4{
+      background-position: 123px 0;
+      &:after{
+        background-position: 40px 0;
+      }
+    }
+
+  .butonPartners{
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    color: #ff4e50;
+    background: white;
+    line-height: 35px;
+    padding: 0 74px;
+    letter-spacing: 1px;
+    &:hover{
+    text-shadow: 3px -2px 8px #ff4e50;
+ }
+    @extend %btn;
+  }
+
+
+
+
+
+
+
+  /////////////////////////////////////////////////////SEARCH PARTNERS
+
+
+
+.searchPartners{
+  max-width: calc(320px - 2.5% - 2.5%);
+  margin: 0 auto;
+  padding: 9.5% 2.5% 10.5% 2.5%;
+
+
+ &__head{
+   text-align: center;
+   margin-bottom: 3.2%;
+   display: block;
+   @include fontStack($colorBlack, 22px);
+   clear:both;
+   line-height: 25px;
+ }
+ &__head2{
+   font-size: 18px;
+   margin-bottom: 5%;
+   font-family: 'Roboto', sans-serif;
+   color: $colorBlack;
+   text-align: center;
+   line-height: 25px;
+  }
+  // .grid{
+  //   height: 939px;
+  // }
+
+ }
+ .search{
+   margin: 0 auto;
+   text-align: center;
+   &__input{
+     display: block;
+     margin-left: 3%;
+     margin-bottom: 3.2%;
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     color: #999999;
+     line-height: 36px;
+     width: 87.5%;
+     padding-left: 5.1%;
+     border-radius: 4px;
+     border: 1px solid gray;
+
+   }
+   &__button{
+     display: block;
+     padding: 3.8% 27.8%;
+     margin: 0 auto;
+     @include fontStack(white, 14px);
+     @extend %btn;
+   }
+ }
+
+
+/* ---- .grid ---- */
+
+.gridEror{
+  text-align: center;
+  margin: 5%;
+  @include fontStack(red, 20px);
+}
+.grid{
+  height: 100px;
+}
+
+.gridWord{
+  color: white;
+  @include visitedHover ($colorBlack, #abc);
+  position: absolute;
+  z-index: 5;
+  top: 30%;
+  left: 25%;
+  @include fontStack(white, 18px);
+
+ letter-spacing: 1px;
+}
+
+.grid-item {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 130px;
+  box-sizing: border-box;
+  border-top: 0.3em solid white;
+  border-bottom: 0.3em solid white;
+  overflow: hidden;
+  border-radius: 13px;
+  // Анимация при изменении ширины
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+}
+.grid-item img{
+  max-width: 100%;
+}
+.grid-item:last-of-type{
+  margin-bottom:  10.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////SEARCH PARTNERS
+.footer{
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 17px 0;
+  border-top: 4px solid #ff4e50;
+
+  &__title{
+    letter-spacing: 1px;
+    @include fontStack(#ff4e50, 16px);
+  }
+
+  &__partners{
+    margin-top: 13px;
+    a{
+      @include fontStack($colorBlack, 14px);
+      &:visited{
+        color:$colorBlack;
+      }
+      &:hover{
+        color:#b8b8b8;
+      }
+    }
+  }
+
+
+}
+
+
+.footer__menu{
+  text-align: center;
+
+  li{
+      display: inline-block;
+      margin-left: 10px;
+    &:first-child{
+      margin-left: 0;
+      }
+    a{
+      color:#666666;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      &:visited{
+        color:#666666;
+      }
+      &:hover{
+        color:#b8b8b8;
+      }
+     }
+
+    }
+
+  &__head{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: block;
+    @include fontStack($colorBlack, 14px);
+  }
+
+
+}
+
+  .logo{
+
+    letter-spacing: 1px;
+    margin-top:12px;
+    position: relative;
+    a{
+
+      @include fontStack(#cccccc, 10px);
+      @include visitedHover (#cccccc, #ff4e50);
+    }
+    &:after{
+      content: "";
+      background-image: url(../../img/logo.png);
+      width: 110px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      top: 23px;
+      right: 106px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
