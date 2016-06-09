@@ -113,7 +113,10 @@ $colorBlack: #333333;
      &__title{
        margin-top: 117px;
        letter-spacing: 1px;
-       @include fontStack(white, 20px);
+       a{
+         @include visitedHover(white, #E2DE5E);
+         @include fontStack(white, 20px);
+       }
      }
 
    }
@@ -306,9 +309,11 @@ background-position: -32px 0;
     }
 
     &__name {
-       @include fontStack($colorBlack, 14px);
        margin: 20px auto 0 auto;
        text-align: center;
+       a {
+         @include fontStack($colorBlack, 14px);
+       }
        a:visited{
          color:$colorBlack
        }
@@ -502,7 +507,10 @@ background-position: -32px 0;
 
   &__title{
     letter-spacing: 1px;
-    @include fontStack(#ff4e50, 16px);
+    a{
+      @include fontStack(#ff4e50, 16px);
+      @include visitedHover(#ff4e50, #666666);
+    }
   }
 
   &__partners{

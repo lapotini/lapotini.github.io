@@ -14,18 +14,18 @@ module.exports = function(grunt) {
    uglify: {
 
     dist: {
-      src: ['js/dist/script.main.js'],
-      dest: 'js/dist/script.min.js'
+      src: ['js/script.js'],
+      dest: 'js/script.min.js'
     }
   },
 
   sass: {
     dist: {
-        // options: {
-        //     style: 'compressed'
-        // },
+        options: {
+            style: 'compressed'
+        },
         files: {
-            'css/dist/style.css': 'css/src/*.scss'
+            'css/dist/style.min.css': 'css/src/*.scss'
         }
     }
 },
@@ -39,6 +39,7 @@ module.exports = function(grunt) {
     },
   }
 }
+
 
 
 

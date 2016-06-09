@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 960px){
+@media screen and (min-width: 961px){
   %btnDesktop {
     display: block;
     background-color: #ff4e50;
@@ -39,20 +39,25 @@
           border: 2px solid white;
           text-shadow: 3px -2px 8px rgba(255, 255, 255, 1);
         }
+
       }
 
-     &__signUp{
 
+     &__signUp{
 
        margin-right: 17.4%;
        line-height: 32px;
     }
       &__title{
+        a{
+          @include fontStack(white, 20px);
+
+          @include visitedHover(white, #E2DE5E);
+        }
         margin-left: 17.3%;
         float: left;
         margin-top: 0.7%;
         letter-spacing: 1px;
-        @include fontStack(white, 20px);
       }
 
     }
@@ -61,6 +66,7 @@
   .promo__head{
     width: 40%;
     @include fontStack(white, 52px);
+
     margin: 10% auto 0 auto;
     line-height: 60px;
     text-align: center;
@@ -162,7 +168,7 @@
        &__title{
          position: absolute;
          display: block;
-         @include fontStack(white, 24px);
+         @include fontStack(white, 1.5em);
          top: 66%;
          left: 6%;
          line-height: 28px;
@@ -170,10 +176,12 @@
        }
        &__text{
          width: 86%;
+         max-height: 15%;
+         overflow: hidden;
          position: absolute;
          display: block;
          font-family: 'Roboto', sans-serif;
-         font-size: 14px;
+         font-size: 0.9em;
          color: #cccccc;
          bottom: 5%;
          left: 6%;
@@ -199,10 +207,16 @@
    .st2{
      top: 73.2%;
      left: 6%;
+     overflow: hidden;
+     max-height: 6%;
    }
    .bst2{
      top: 64.3%;
      left: 5.5%;
+   }
+   .stTxt2{
+     max-height: 12%;
+
    }
 
 
@@ -283,6 +297,10 @@
      }
       .partnerContainer:first-of-type{
           margin-left: 6.3%;
+      }
+      .partnerContainer:last-of-type{
+          margin-right: 0;
+
       }
 
        .foto2{
@@ -458,7 +476,10 @@
            vertical-align: top;
            display: inline-block;
            letter-spacing: 1px;
-           @include fontStack(#ff4e50, 16px);
+           a{
+             @include fontStack(#ff4e50, 16px);
+             @include visitedHover(#ff4e50, #666666);
+           }
          }
 
          &__partners{

@@ -52,7 +52,10 @@
          margin-top: 1.4%;
          margin-left: 6.4%;
          letter-spacing: 1px;
-         @include fontStack(white, 20px);
+         a{
+           @include visitedHover(white, #E2DE5E);
+           @include fontStack(white, 20px);
+         }
        }
 
      }
@@ -158,6 +161,7 @@
     position: relative;
     &:last-of-type{
       margin-right: 0;
+      width: 31.2%;
 
     }
 
@@ -169,7 +173,7 @@
       &__title{
         position: absolute;
         display: block;
-        @include fontStack(white, 24px);
+        @include fontStack(white, 1.5em);
         top: 61.8%;
         left: 7%;
         line-height: 28px;
@@ -177,10 +181,12 @@
       }
       &__text{
         width: 86%;
+        max-height: 20%;
+        overflow: hidden;
         position: absolute;
         display: block;
         font-family: 'Roboto', sans-serif;
-        font-size: 14px;
+        font-size: 0.9em;
         color: #cccccc;
         bottom: 5.5%;
         left: 8%;
@@ -206,10 +212,15 @@
   .st2{
     top: 73.2%;
     left: 8%;
+    overflow: hidden;
+    max-height: 6%;
   }
   .bst2{
     top: 64.3%;
     left: 9%;
+  }
+  .stTxt2{
+    max-height: 15%;
   }
 
 
@@ -263,6 +274,9 @@
          @include fontStack($colorBlack, 14px);
          margin: 22px auto 0 auto;
          text-align: center;
+         a {
+           color:$colorBlack;
+         }
          a:visited{
            color:$colorBlack
          }
@@ -484,7 +498,10 @@
         vertical-align: top;
         display: inline-block;
         letter-spacing: 1px;
-        @include fontStack(#ff4e50, 16px);
+        a{
+          @include fontStack(#ff4e50, 16px);
+          @include visitedHover(#ff4e50, #666666);
+        }
       }
 
       &__partners{
