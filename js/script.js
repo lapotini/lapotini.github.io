@@ -62,7 +62,8 @@ $(document).ready(function() {
              $('.grid').append(content);
           }else{
              $('.grid').find($('.grid-item')).remove();
-              $('<p class="gridEror">Nicht gefunden</p>').appendTo($('.grid'));
+             $('.grid').find($('.gridError')).remove();
+              $('.grid').append('<p class="gridError">Nicht gefunden</p>');
 
           }
         }
