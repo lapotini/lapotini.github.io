@@ -1,4 +1,4 @@
-$(function() {
+$(function($) {
     $('.jcarousel').jcarousel({
         wrap: 'circular'
     });
@@ -17,17 +17,17 @@ $(function() {
 
 
 
-$(document).ready(function() {
+$(document).ready(function($) {
   var searchButton = $('.search__button');
   var searchInput = $('.search__input');
 
-  $(searchButton).on('click', function(){
-    search($('.search__input').val());
+    searchButton.on('click', function(){
+    search(searchInput.val());
   });
 
-  $('.search__input').on('keydown', function(e) {
+    searchInput.on('keydown', function(e) {
     if (event.keyCode == 13) {
-      search($('.search__input').val());
+      search(searchInput.val());
     }
     });
 
@@ -48,6 +48,7 @@ $(document).ready(function() {
         url: "https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent(query),
         dataType: 'json',
         success:function(data){
+          $('.grid').find($('.gridError')).remove();
           if (data.hits.length > 0){
              //  console.log(data);
              $('.grid').find($('.grid-item')).remove();

@@ -6,8 +6,9 @@
     cursor: pointer;
     border-radius: 20px;
     border: 0;
+    outline: none;
+
     &:hover{
-      text-shadow: 3px -2px 8px rgba(255, 255, 255, 1);
       box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
   }
@@ -345,9 +346,7 @@
       padding: 0 5.2%;
       @include fontStack(#ff4e50, 14px);
       @extend %btn480;
-      &:hover{
-        text-shadow: 3px -2px 8px #ff4e50;
-      }
+
     }
 
 
@@ -429,7 +428,6 @@
 
             .gridWord{
               color: white;
-              @include visitedHover ($colorBlack, #abc);
               position: absolute;
               z-index: 5;
               top: 30%;
@@ -438,6 +436,13 @@
 
              letter-spacing: 1px;
             }
+            .grid-item a:hover .gridWord{
+              color: #abc;
+            }
+            .grid-item img{
+               -webkit-filter: brightness(65%);
+            }
+
 
             /* ---- .grid-item ---- */
             .grid-item {

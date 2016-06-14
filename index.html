@@ -31,9 +31,9 @@
   <body>
     <div class="promo">
       <header class="header">
-        <a class="header__logIn" href="">Log in</a>
-        <a class="header__signUp" href="">Sign up</a>
-        <h3 class="header__title"><a href="#">URLAUBSGLÜCK</a></h3>
+        <a class="header__logIn" href="javascript:;">Log in</a>
+        <a class="header__signUp" href="javascript:;">Sign up</a>
+        <h3 class="header__title"><a href="javascript:;">URLAUBSGLÜCK</a></h3>
       </header>
       <h2 class="promo__head">SHARE YOUR HOLIDAY DREAMS</h2>
       <h3 class="promo__head2">And find the perfect partner to fullfill it</h3>
@@ -51,8 +51,8 @@
             <li><img  class="step__image" src="img/step3.jpg" alt="" /></li>
           </ul>
         </div>
-        <a class="jcarousel-prev" href=""></a>
-        <a class="jcarousel-next" href="#"></a>
+        <a class="jcarousel-prev" href="javascript:;"></a>
+        <a class="jcarousel-next" href="javascript:;"></a>
         <button class="buttonStep" type="button" name="findPartner">STEP 1</button>
         <h6 class="step__title">Sed leo enim, condimentum</h6>
         <span class="step__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</span>
@@ -66,8 +66,8 @@
             <li><img  class="step__image" src="img/step3.jpg" alt="" /></li>
           </ul>
         </div>
-        <a class="jcarousel-prev" href=""></a>
-        <a class="jcarousel-next" href="#"></a>
+        <a class="jcarousel-prev" href="javascript:;"></a>
+        <a class="jcarousel-next" href="javascript:;"></a>
         <button class="buttonStep bst2" type="button" name="findPartner">STEP 2</button>
         <h6 class="step__title st2">Morbi velit risus</h6>
         <span class="step__text stTxt2">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</span>
@@ -81,8 +81,8 @@
             <li><img  class="step__image" src="img/step1.jpg" alt="" /></li>
           </ul>
         </div>
-        <a class="jcarousel-prev" href=""></a>
-        <a class="jcarousel-next" href="#"></a>
+        <a class="jcarousel-prev" href="javascript:;"></a>
+        <a class="jcarousel-next" href="javascript:;"></a>
         <button class="buttonStep" type="button" name="findPartner">STEP 3</button>
         <h6 class="step__title">Sed leo enim, condimentum</h6>
         <span class="step__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</span>
@@ -93,26 +93,26 @@
     <section class="partners">
         <h3 class="partners__head">Meet a partner for your best holiday</h3>
         <div class="partnerContainer">
-          <figure class="partners__foto"></figure>
-          <h5 class="partners__name"><a href="#">Bradley Hunter</a></h5>
+          <a href="javascript:;" class="partners__foto"></a>
+          <h5 class="partners__name"><a href="javascript:;">Bradley Hunter</a></h5>
           <span class="partners__info">Based in Chicago. I love playing tennis and loud music.</span>
         </div>
 
         <div class="partnerContainer">
-          <figure class="partners__foto foto2"></figure>
-          <h5 class="partners__name"><a href="">Heather Walker</a></h5>
+          <a href="javascript:;" class="partners__foto foto2"></a>
+          <h5 class="partners__name"><a href="javascript:;">Heather Walker</a></h5>
           <span class="partners__info">I'm a happy person that loves cats and climbing on mountains.</span>
         </div>
 
         <div class="partnerContainer">
-          <figure class="partners__foto foto3"></figure>
-          <h5 class="partners__name"><a href="#">Lucas Marsha</a></h5>
+          <a href="javascript:;" class="partners__foto foto3"></a>
+          <h5 class="partners__name"><a href="javascript:;">Lucas Marsha</a></h5>
           <span class="partners__info">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</span>
         </div>
 
         <div class="partnerContainer">
-          <figure class="partners__foto foto4"></figure>
-          <h5 class="partners__name"><a href="">Bradley Hunter</a></h5>
+          <a href="javascript:;" class="partners__foto foto4"></a>
+          <h5 class="partners__name"><a href="javascript:;">Bradley Hunter</a></h5>
           <span class="partners__info">Based in Chicago. I love playing tennis and loud music.</span>
         </div>
         <button class="butonPartners" type="button" name="seePartners">See other partners</button>
@@ -130,7 +130,7 @@
 
 
           <% for(var i = 0; i < 7 && i < hits.length; i++) {  %>
-            <div class="grid-item"><img src=" <%= hits[i].webformatURL %> " alt="" /><a class="gridWord" target="_blank" href="<%= hits[i].pageURL %>"><%= hits[i].tags.split(", ", 1) %></a></div>
+            <div class="grid-item"><a target="_blank" href="<%= hits[i].pageURL %>"><img src=" <%= hits[i].webformatURL %> " alt="" /><span class="gridWord"><%= hits[i].tags.split(", ", 1) %></span></a></div>
 
 
 
@@ -150,18 +150,18 @@
 
 
     <footer class="footer">
-      <h3 class="footer__title"><a href="">URLAUBSGLÜCK</a></h3>
+      <h3 class="footer__title"><a href="javascript:;">URLAUBSGLÜCK</a></h3>
       <nav class="footer__menu">
         <h4 class="footer__menu__head">Company</h4>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="javascript:;">About</a></li>
+          <li><a href="javascript:;">Contacts</a></li>
+          <li><a href="javascript:;">Press</a></li>
+          <li><a href="javascript:;">Blog</a></li>
         </ul>
       </nav>
-      <h4 class="footer__partners"><a href="">Partners</a></h4>
-      <p class="logo"><a href="#">DESIGNED BY</a></p>
+      <h4 class="footer__partners"><a href="javascript:;">Partners</a></h4>
+      <p class="logo"><a href="javascript:;">DESIGNED BY</a></p>
     </footer>
 
 
