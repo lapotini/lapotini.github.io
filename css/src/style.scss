@@ -65,7 +65,11 @@ $colorBlack: #333333;
     border-radius: 20px;
     border: 0;
     outline: none;
-
+    &:active {
+      -webkit-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+       transform: scale(0.98);
+     }
     &:hover{
       box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 4px 15px 0 rgba(0,0,0,0.19);
     }
@@ -204,7 +208,7 @@ background-position: -32px 0;
 
 .step{
   height: 240px;
-  width: 94%;
+  width: 93.6%;
   margin: 0 auto 10px auto;
   border-radius: 5px;
   overflow: hidden;
