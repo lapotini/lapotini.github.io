@@ -1,5 +1,6 @@
 body{
     background-image: url(../img/1.jpg);
+    height: 100%;
 }
 
 
@@ -19,7 +20,7 @@ body{
 .listContainer{
     float:left;
     width: 40%;
-    margin: 2% 0 0 5%;
+    margin: 2% 0 5% 5%;
 }
 
 
@@ -30,7 +31,7 @@ body{
 
 ul {
     width: 500px;
-    counter-reset: li; /* Устанавливает идентификатор */
+    counter-reset: li; /* Г“Г±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГІ ГЁГ¤ГҐГ­ГІГЁГґГЁГЄГ ГІГ®Г° */
     list-style: none;
     font: 15px 'trebuchet MS', 'lucida sans', sans-serif;
     /*text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
