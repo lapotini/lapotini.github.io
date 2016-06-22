@@ -1,0 +1,47 @@
+td:last-child {
+  border-right: none;
+}
+td:first-child {
+  border-left: none;
+    width: 120px;
+}
+
+td {
+  font-size: 0;
+  border: 18px solid black;
+  width: 200px;
+  height: 180px;
+}
+
+.t1 td {
+  height: 120px;
+  border-top: none;
+}
+.t7 td {
+  border-bottom: none;
+}
+.t8 td, .t9 td {
+  height: 90px;
+  border-bottom: none;
+}
+tr td:first-child {
+;
+}
+.yellow {
+  background: #fbd954;
+}
+.blue {
+  background: #044380;
+}
+.black {
+  background: #131313;
+}
+.red {
+  background: #fd5d2f;
+}
+.red {
+  border: none;
+}
+.white {
+  border: none;
+}

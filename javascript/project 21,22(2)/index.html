@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>project 19,20 TEST</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    <title>JS 1,2(1)</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/dist/template.js"></script>
+    <script src="js/dist/scriptES6.js"></script>
+    </head>
+  <body>
+
+
+
+    <script type="text/template" id="html">
+
+     <div class="container">
+       <h1 class="head">Тест по программированию</h1>
+
+       <form class="formTest" action="#" method="post">
+         <% for(var i = 0; i < test.length; i++) { %>
+           <span class="question"><%= test[i].title %></span>
+           <div class="answerBox">
+             <% for(var y = 0; y < test[i].answer.length; y++) { %>
+               <label class="answer"><input type="radio" name="vopros<%= i %>" value="<%= i %>_<%= y %>" ><span> <%= test[i].answer[y].text %></span></label>
+             <% }; %>
+            </div>
+          <% }; %>
+          <span id="message"></span>
+          <button class="btn btn-success" type="submit" name="action">Проверить результат </button>
+
+
+        </form>
+
+
+
+      </div>
+
+
+    </script>
+
+  </body>
+</html>

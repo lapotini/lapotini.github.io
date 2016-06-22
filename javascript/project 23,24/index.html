@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>project 23,24</title>
+    <link rel="stylesheet" href="css/dist/reset.css">
+    <link rel="stylesheet" href="css/dist/style.css">
+    <!-- <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script> -->
+
+    <script data-main="js/app" src="js/require.js"></script>
+
+    </head>
+  <body>
+
+
+    <script type="text/template" id="wrapper-temlate">
+
+
+      <div class="wrapper">
+
+        <h1 class="head"> To Do List</h1>
+        <div class="controls">
+          <input type="text" class="item-value" placeholder="Please add task...">
+          <a href="#" class="add-button" >add task</a>
+        </div>
+        <ul class="item-List">
+        </ul>
+
+      </div>
+
+
+    </script>
+
+
+
+    <script type="text/template" id="list-temlate">
+      <%for (var i = 0; i < data.length; i++) { %>
+        <li class="sticker"><input type="text" disabled class="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="item-edit"></span><span data-value="<%= data[i] %>" class="item-delete"></span></li>
+      <% }; %>
+    </script>
+
+
+
+
+
+
+  </body>
+</html>

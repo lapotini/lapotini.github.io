@@ -1,0 +1,181 @@
+body {
+  background-image: url(../img/background.jpg);
+
+  font-family: Tahoma;
+  font-size: 14px;
+
+}
+.container {
+  width: 1000px;
+  height: auto;
+  background: white;
+  margin: 0px auto 0 auto;
+  padding-top: 49px;
+}
+
+/* header */
+
+.header {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.logo img{
+  float: left;
+  display: block;   /*вместо отрицательного margin*/
+}
+.contacts {
+  color: #128aa7;
+  font-size: 16px;
+  float: right;
+  line-height: 20px;
+  font-weight: normal;
+}
+.menu-contries {
+  clear: right;
+  float: right;
+  font-size: 12px;
+  padding-top: 15px;
+}
+.menu-contries li{
+  display: inline-block;
+
+}
+.menu-contries a {
+  width: 65px;
+  display: inline-block;
+  text-align: center;
+}
+.menu-contries img {
+  padding-left: -5px;
+}
+.image img {
+  display: block;   /*вместо отрицательного margin*/
+}
+
+/* menu */
+
+
+
+
+
+#navigation ul {
+  background-image: url(../img/menu.png);
+  height: 34px;
+  background-repeat: no-repeat;
+  background-size: 101%;
+  margin-left: -2px;
+
+}
+
+#navigation ul li {
+
+  float:left;
+  margin-left: 40px;
+position: relative;
+}
+
+
+
+#navigation a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  margin: 8px;
+
+}
+
+
+#navigation li:hover .dropdown {
+display: block;
+
+}
+
+#navigation .dropdown {
+  background: url(../img/tabl.jpg);
+position:absolute;
+top: 100%;
+display: none;
+height: 160px;
+
+}
+
+#navigation .dropdown li {
+  width: 120px;
+  margin: 0;
+padding: 0;
+text-align: center;
+}
+
+
+
+
+
+/*            conteiner2                  */
+
+.conteiner2 {
+  width: 1000px;
+  height: 500px;
+  background: white;
+  margin: 0px auto 0 auto;
+  padding: 0 0 25px 0;
+  }
+
+/* sidebar */
+
+.sidebar {
+  float: left;
+  background-color: #edeef0;
+  height: 100%;
+  width: 20%;
+  padding: 0 25px 25px 25px;
+  line-height: 30px;
+}
+.sidebar p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* content */
+
+.content {
+  float: left;
+  width: 45%;
+  padding: 0 25px 25px 25px;
+  line-height: 30px;
+  height: 100%;
+}
+.content p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* news */
+
+.news {
+
+  float: right;
+  background-color: #edeef0;
+  height: 100%;
+  width: 20%;
+  padding: 0 25px 25px 25px;
+  line-height: 30px;
+}
+.news p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*footer*/
+
+.footer {
+  padding: 5px 0 4px 200px;
+  line-height: 15px;
+  display: block;
+  width: 500px;
+  color: white;
+  margin: 0 auto 0 auto;
+}

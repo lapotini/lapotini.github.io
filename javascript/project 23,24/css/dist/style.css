@@ -1,0 +1,124 @@
+body{
+  background-image: url(../../img/background.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.wrapper{
+  margin: 5% auto;
+  width: 80%;
+
+}
+.item-value{
+  border: 0;
+  background: rgba(255,255,255,0.3);
+  height: 40px;
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+
+}
+.item-value:focus{
+  background: none;
+
+}
+.add-button{
+
+}
+
+.add-button {
+  position: relative;
+  display: inline-block;
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  user-select: none;
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image:
+   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+.add-button:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+.add-button:active {
+  top: 1px;
+}
+
+.sticker{
+  display: inline-block;
+  background-image: url(../../img/sticker1.png);
+  width: 250px;
+  height: 280px;
+  position: relative;
+
+
+}
+.head{
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+
+.text{
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  width: 75%;
+  height: 40px;
+  font-family: Arial,sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  /*overflow: hidden;*/
+}
+.text{
+  border: 0;
+  background: none;
+
+
+}
+.text:focus{
+  border: 0;
+  background: none;
+  background-color: transparent;
+  outline: none;
+}
+
+
+
+.item-edit{
+  position: absolute;
+  background-image: url(../../img/edit.png);
+  background-position: 0 -33px;
+  width: 32px;
+  height: 32px;
+  bottom: 30px;
+  right: 15px;
+}
+.item-edit:hover,
+.item-delete:hover{
+background-position: 0 0;
+cursor: pointer;
+}
+.item-delete{
+  position: absolute;
+  background-image: url(../../img/del.png);
+  background-position: 0 -16px;
+  width: 16px;
+  height: 16px;
+  top: 40px;
+  right: 20px;
+}

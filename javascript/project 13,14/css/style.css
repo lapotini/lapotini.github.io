@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(121, 195, 181);
+}
+
+.container{
+  width: 60%;
+  margin: 10% auto;
+
+}
+.head{
+  font-size: 30px;
+  text-align: center;
+}
+.answer{
+  width: auto;
+  display: block;
+  color:rgb(99, 74, 115);
+  margin: 10px;
+  font-size: 20px;
+}
+.question{
+  font-size: 25px;
+  display: block;
+}
+.btn{
+  width: 250px;
+  margin: 30px 0 0 150px;
+}
+
+.formTest{
+  padding-left: 40px;
+}
+
+.answerBox{
+  width: 300px;
+}
+
+
+
+
+/* modal window*/
+#message{
+  display: block;
+  margin-top: 15px;
+  height: 15px;
+  font-size: 20px;
+  color: red;
+}
+.shadow{
+  top:0;
+  left:0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(100,100,100,0.8);
+
+}
+.modalWindow{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 99;
+  position: absolute;;
+  left: 30%;
+  top:30%;
+
+}
+h3{
+
+  font-size: 35px;
+  text-align: center;
+  margin-top: 2%;
+}
+.btn-default{
+  position: absolute;
+  width: 120px;
+  right: 5%;
+  bottom: 5%;
+}
+
+.result{
+
+  text-align: center;
+  margin-top: 20%;
+  font-size: 20px;
+
+}
