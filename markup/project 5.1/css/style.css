@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Helvetica Neue Regular';
+  src: url('../fonts/helveticaneue-thin-webfont.eot');
+  src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('../fonts/helveticaneue-thin-webfont.woff') format('woff'), url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Helvetica Neue Regular", Arial, Tahoma, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Wrapper-h */
+
+.wrapper-h {
+  width: 550px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 10%;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 60px;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Wrapper */
+
+.wrapper {
+  width: 550px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+}
+.wrapper div {
+  text-align: center;
+}
+.wrapper img {
+  padding-top: 18px;
+}
+.wrapper .field input {
+  margin-top: 20px;
+}
+.wrapper input {
+  color: rgba(255, 255, 255, 0.8);
+  width: 260px;
+  height: 30px;
+  background: black;
+  border: 0;
+  border-bottom: #484948 solid 1px;
+}
+.check input {
+  width: 20px;
+  height: auto;
+  margin-left: -10%;
+}
+.check {
+  font-size: 14px;
+}
+.wrapper .submit input {
+  color: white;
+  background: url(../img/hover.png) no-repeat;
+  width: 150px;
+  height: 36px;
+  border-radius: 5px;
+}
+.wrapper .text {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 18px;
+}
+.field input {
+  padding-left: 16px;
+}
+.field input:focus {
+  background: #1b5288;
+  border-color: #1b5288;
+  color: white;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(76, 137, 178, 0.8);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(76, 137, 178, 0.8);
+  box-shadow: 0px 0px 5px 3px rgba(76, 137, 178, 0.8);
+}
+
+/* menu-top  */
+
+.menu-top {
+  background: url(../img/menu.jpg);
+  height: 36px;
+  padding-right: 30px;
+}
+.menu-top ul li a {
+  color: #60b5ed;
+  text-decoration: none;
+  display: block;
+  float: right;
+  padding: 10px;
+}
+.menu-top img {
+  float: right;
+  margin-top: 3px;
+}
+.menu-top .text span {
+  display: block;
+  float: right;
+  padding: 10px;
+}
+.menu-top a:visited {
+  color: #60b5ed;
+}
+.menu-top a:hover {
+  color: white;
+  background: #60b5ed;
+}
+.menu-top .ola {
+  background: url(../img/hover.png) no-repeat;
+  width: 191px;
+  float: right;
+}
+.menu-top .ola span {
+  display: block;
+  float: right;
+  padding: 10px 3px;
+}
+.menu-top .ola a {
+  display: block;
+  float: right;
+  text-decoration: underline;
+  padding: 10px 3px;
+  color: white;
+}
+.menu-top .ola a:hover {
+  background: none;
+}

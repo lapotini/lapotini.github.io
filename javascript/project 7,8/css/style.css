@@ -1,0 +1,90 @@
+
+.wrapper_tabs{
+  width: 35%;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-top: 10px;
+  background-color: #ddf;
+}
+
+#menu-tab{
+  width: 97%;
+  background-color: rgb(99, 0, 255);
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.menu-tab__item{
+  background-color: rgb(59, 255, 150);
+  display: inline-block;
+  width: 25%;
+  margin-left: 5%;
+  text-align: center;
+  border-radius: 2px;
+}
+.menu-tab__link{
+  display: block;
+  padding: 8px 0 8px 0;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+#content-tab{
+  margin: 25px;
+  color: blue;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.active{
+  background-color: #ddf;
+}
+
+.hover{
+  background-color: rgb(59, 255, 235);
+  }
+
+
+
+  /* part 2  -----------------------     */
+
+#wrapper{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: #eee;
+    width: 500px;
+    border: solid 1px black;
+    border-radius: 5px;
+  }
+
+  label{
+    width:100px;
+    display: inline-block;
+    font-family: Arial;
+    }
+
+.wrapper__boxInput{
+  margin-bottom: 25px;
+  position: relative;
+
+}
+.wrapper__boxInput input{
+}
+
+em{
+  /*display: inline-block;*/
+  padding: 6px;
+  width: 150px;
+  border: solid 1px #aaa;
+  border-radius: 4px;
+  background-color: #ddd;
+  position: absolute;
+  font-size: Arial;
+  color: blue;
+  top: -5px;
+  right: 40px;
+}
