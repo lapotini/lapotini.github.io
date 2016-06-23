@@ -1,7 +1,7 @@
 body{
     background-image: url(../img/1.jpg);
     height: 100%;
-
+    background-size: cover;
 }
 
 
@@ -21,7 +21,7 @@ body{
 .listContainer{
     float:left;
     width: 40%;
-    margin: 2% 0 5% 5%;
+    margin: 50px 0 50px 100px;
 }
 
 
