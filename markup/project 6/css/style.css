@@ -822,6 +822,7 @@ font-size: 12px;
 }
 
 .menu-footer a{
+  color: rgb(70, 89, 97);
   margin-right:5px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
