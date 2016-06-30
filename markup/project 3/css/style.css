@@ -1,0 +1,134 @@
+body {
+  width: 100%;
+  height: 950px;
+  background: #f9f9f9;
+}
+.container {
+  position: relative;
+  width: 1060px;
+  min-height: 100%;
+  background: white;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+/* menu-top #1*/
+
+.menu-top {
+  height: 40px;
+  margin: 40px 0;
+}
+.menu-top li {
+  display: inline-block;
+}
+
+.menu-top ul {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e5e5e+0,434343+100 */
+  background: rgb(94,94,94); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(94,94,94,1) 0%, rgba(67,67,67,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(94,94,94,1) 0%,rgba(67,67,67,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(94,94,94,1) 0%,rgba(67,67,67,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.menu-top a {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+  display: block;
+  line-height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,0);
+
+}
+.menu-top a:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a4a4a+0,2e2e2e+100 */
+  background: rgb(74,74,74); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(74,74,74,1) 0%, rgba(46,46,46,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(74,74,74,1) 0%,rgba(46,46,46,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(74,74,74,1) 0%,rgba(46,46,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2e2e2e',GradientType=0 ); /* IE6-9 */
+  border-right: 1px solid #848484;
+  border-left: 1px solid #848484;
+  box-sizing: border-box;
+}
+
+/* sidebar #2*/
+
+.sidebar {
+  width: 25%;
+  font-size: 14px;
+  float: left;
+}
+.sidebar li {
+  display: block;
+  border: 1px solid #c8c8c8;
+  border-bottom: 0px;
+}
+.sidebar li:last-child {
+  border-bottom: 1px solid #c8c8c8;
+}
+.sidebar a {
+  display: block;
+  padding-left: 30px;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background: #f9f9f9;
+}
+
+/* product*/
+
+.content {
+  width: 60%;
+  float: right;
+}
+
+.product{
+  display: block;
+  margin: 0 auto;
+  padding: 45px;
+  border: 1px solid grey;
+}
+
+.info{
+  padding: 30px 20px;
+}
+
+
+/*   footer*/
+.footer {
+  width: 91.3%;
+  position: absolute;
+  bottom: 50px;
+}
+.footer ul {
+  background: #e1e1e1;
+}
+.footer li {
+  display: inline-block;
+}
+.footer li a {
+  display: block;
+  line-height: 40px;
+  padding: 0 33px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.footer li:last-child{
+  display: block;
+  float: right;
+  line-height: 40px;
+  margin-right: 30px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

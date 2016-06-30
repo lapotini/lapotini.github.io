@@ -1,0 +1,1827 @@
+@font-face {
+    font-family: 'League Gothic Regular';
+    src: url('../fonts/League Gothic Regular/league_gothic-webfont.eot');
+    src: url('../fonts/League Gothic Regular/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/League Gothic Regular/league_gothic-webfont.woff2') format('woff2'),
+         url('../fonts/League Gothic Regular/league_gothic-webfont.woff') format('woff'),
+         url('../fonts/League Gothic Regular/league_gothic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/Open Sans Regular/2211-webfont.eot');
+    src: url('../fonts/Open Sans Regular/2211-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Open Sans Regular/2211-webfont.woff2') format('woff2'),
+         url('../fonts/Open Sans Regular/2211-webfont.woff') format('woff'),
+         url('../fonts/Open Sans Regular/2211-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family:"Open Sans Light";
+src:url('../fonts/Open Sans Light/OpenSans-Light.eot?') format("eot"),
+    url('../fonts/Open Sans Light/OpenSans-Light.woff') format("woff"),
+    url('../fonts/Open Sans Light/OpenSans-Light.ttf') format("truetype"),
+    url('../fonts/Open Sans Light/OpenSans-Light.svg#OpenSans-Light') format("svg");
+font-weight:normal;
+font-style:normal;
+}
+
+
+body{
+  font-family: "League Gothic Regular", Arial, Helvetica, sans-serif;
+}
+
+.BackGround-header{
+  background: url(../img/bg.jpg) no-repeat;
+  background-position: center center;
+  width: 100%;
+  background-size: cover;
+}
+.BackGround-about{
+  width: 100%;
+  border-top:1px solid #33253a;
+  border-bottom: 1px solid #1d2f37;
+  box-sizing: border-box;
+
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#745083+0,322539+100 */
+background: #745083; /* Old browsers */
+background: -moz-linear-gradient(top,  #745083 0%, #322539 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #745083 0%,#322539 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #745083 0%,#322539 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 ); /* IE6-9 */
+
+}
+.BackGround-content{
+  width: 100%;
+  background: rgb(249, 249, 249);
+  border-top:1px solid #0d151b;
+  border-bottom:1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.BackGround-brands{
+  width: 100%;
+  background: #f9f9f9;
+  border-top:1px solid #fefefe;
+  border-bottom:1px solid #fefefe;
+  box-sizing: border-box;
+}
+
+.BackGround-footer1{
+width: 100%;
+background: #ececec;
+border-top:1px solid #d8d8d8;
+box-sizing: border-box;
+}
+.BackGround-footer2{
+width: 100%;
+background: url(../img/footer-bg.jpg);
+background-position: center center;
+width: 100%;
+background-size: cover;
+}
+@media screen and (min-width: 960px) {
+
+header{
+
+  width: 960px;
+}
+
+.logo{
+  float: left;
+  width: 15.8%;
+}
+
+.menu-small{
+  display: none
+}
+
+.menu{
+  float: right;
+  width: 66.4%;
+  margin-right: 1%;
+}
+
+.menu__link{
+  padding: 4px 4px 1px 4px;
+}
+
+.last{
+  padding-right: 0px;
+}
+
+/* about */
+
+.article__header{
+
+  font-size: 30px;
+}
+.article{
+padding:7.9% 6.3% 0 6.4%;
+width: 22.8%;
+float: left;
+}
+.article__text{
+font-family: "Open Sans Light";
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+width: 104.6%;
+  height: 118px;
+}
+.article__header{
+
+  padding-bottom: 9px;
+  padding-left: 1px;
+}
+.article:last-child{
+  padding-left:6.2%;
+padding-right:0;
+
+}
+
+
+.footer1__articles{
+margin-left: 5.8%;
+float: left;
+  width: 29.4%;
+}
+.footer1__articles__header{
+  font-size: 30px;
+}
+/*      */
+.BackGround-header{
+    height: 846px;
+}
+.article__readmore{
+
+  padding-top: 21px;
+}
+
+.BackGround-about{
+
+  height:340px;
+}
+.about{
+  width: 960px;
+  height:340px;
+}
+.article__logo{
+
+  top: 32%;
+  left: 3.4%;
+}
+.BackGround-content{
+
+  height: 489px;
+}
+.content{
+  width: 960px;
+  height: 489px;
+
+  padding-top: 101px;
+  padding-left: 46px;
+
+}
+
+.start__container {
+
+  width: 40.4%;
+  height: 49.5%;
+  padding-top: 3%;
+  padding-left: 4.1%;
+
+  float: left;
+}
+
+.start__header1{
+  font-size: 30px;
+  display: inline-block;
+}
+.start__header2{
+display: inline-block;
+
+  font-size: 30px;
+}
+
+.start__text{
+      width: 93%;
+    height: 70%;
+    padding-top: 2.5%;
+    line-height: 24px;
+  }
+  .start__face{
+
+    top:5.6%;
+    left:-5.8%;
+  }
+
+
+.comment__container{
+  padding-top: 3%;
+  padding-left: 6%;
+}
+
+
+.BackGround-brands{
+  height: 120px;
+}
+
+
+.brands{
+  width: 960px;
+  height: 120px;
+}
+
+.brands{
+
+padding-top: 26px;;
+}
+
+.brands-logo1{
+  display: inline-block;
+  margin-left: 9.6%;
+  height: 64px;
+  width: 69px;
+  background-image: url(../img/sprite-logo.png);
+}
+.brands-logo2{
+  display: inline-block;
+  margin-left: 6.4%;
+  height: 64px;
+  width: 75px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -71px;
+}
+
+.brands-logo3{
+  display: inline-block;
+  margin-left: 6.2%;
+  height: 64px;
+  width: 65px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -148px;
+}
+.brands-logo4{
+  display: inline-block;
+  margin-left: 7.4%;
+  height: 64px;
+  width: 51px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -214px;
+}
+.brands-logo5{
+  display: inline-block;
+  margin-left: 6.8%;
+  height: 64px;
+  width: 105px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -270px;
+}
+.brands-logo6{
+  display: inline-block;
+  margin-left: 6.4%;
+  height: 64px;
+  width: 80px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -383px;
+}
+
+
+
+
+
+
+
+
+
+
+/*     */
+.BackGround-footer1{
+  height: 397px;
+}
+.footer1__articles__text{
+
+
+  height: 117px;
+    font-family: "Open Sans Light";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.footer1__articles__headerLogo{
+
+
+  font-family: "League Gothic Regular", Arial, Helvetica, sans-serif;
+  font-size: 47px;
+  padding-bottom: 14px;
+  color: #454545;
+}
+.footer1__articles__header{
+
+}
+.footer1__copyright{
+
+  display: block;
+clear: left;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+    font-size: 16px;
+    color: #c5c5c5;
+     text-shadow:#fff 1px 1px 1px;
+
+}
+
+
+.footer1__articles__text:nth-child(2) {
+  height: 170px;
+}
+
+.footer1__articles:first-child{
+margin-left: 0;
+}
+
+
+.footer1{
+  width: 960px;
+  height: 397px;
+  padding-top: 97px;
+}
+.footer1__articles:last-child{
+margin-left: 6%;
+margin-right: 0;
+}
+
+
+
+.BackGround-footer2{
+height: 115px;
+}
+.footer2{
+  width: 960px;
+  height: 115px;
+}
+
+.menu--footer .menu__link{
+font-size: 20px;
+padding: 0 4px 1px 2px;
+}
+.menu--footer .menu__item{
+  margin-top: 47px;
+  margin-left: 34px;
+}
+
+
+
+.designed{
+
+  padding-top: 52px;
+  font-size: 13px;
+  float:right;
+}
+
+
+
+
+.comment__header{
+  padding-bottom: 17px;
+}
+.comment__container{
+  width: 47%;
+
+}
+.comment__img{
+  float: left;
+  clear: both;
+  margin-left: 4px;
+  margin-right: 15px;
+
+}
+
+.comment__comment{
+    margin-bottom: 18px;
+    line-height: 24px;
+}
+
+
+.comment__text{
+  font-family: 'Open Sans Regular';
+  font-weight: 900;
+font-size: 21px;
+}
+.comment__date{
+  font-family: 'Open Sans Light';
+font-size: 16px;
+}
+
+.comment__readmore{
+  font-family: 'League Gothic Regular';
+  float: right;
+  margin-top: 4px;
+  margin-right: 20px;
+
+}
+.comment__readmore__link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #454545;
+
+}
+.comment__readmore__link:hover{
+  text-shadow:#000 0px 0px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  header{
+    width: 768px;
+    height: 848px;
+
+  }
+  .logo{
+padding-bottom: 3.6%;
+float: left;
+  }
+
+
+  .menu-small{
+    display: none
+  }
+
+
+  .menu{
+    clear: both;
+    float: left;
+width: 83%;
+  }
+  .menu__link{
+    padding: 4px 4px 1px 4px;
+  }
+
+.first {
+  padding-left: 0;
+}
+
+/* about */
+.article__logo{
+  top: 30%;
+  left: 6%;
+}
+
+.article__header{
+
+  font-size: 23px;
+}
+
+.article{
+  padding:10.1% 3.5% 0 8.3%;
+  width: 21%;
+  float: left;
+}
+.article__text{
+font-family: "Open Sans Light";
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+width: 95.6%;
+  height: 140px;
+}
+
+
+.start__container {
+  margin-left: 3.2%;
+  width: 35.7%;
+  height: 50%;
+  padding-top: 3.8%;
+  padding-left: 5.1%;
+  float: left;
+}
+
+.start__header1{
+  font-size: 24px;
+}
+.start__header2{
+
+
+  font-size: 24px;
+}
+.start__text{
+      width: 93%;
+    height: 60%;
+    padding-top: 3.3%;
+    line-height: 24px;
+  }
+
+  .start__face{
+
+    top:7.1%;
+    left:-7.6%;
+  }
+
+  .comment__container{
+    padding-top: 3.8%;
+    padding-left: 7.1%;
+  }
+
+
+
+
+
+.article__header{
+
+  padding-bottom: 4px;
+  padding-left: 1px;
+}
+.article:last-child{
+  padding-left:9.5%;
+padding-right:0;
+
+}
+.footer1__articles{
+margin-left: 6.7%;
+float: left;
+  width: 28%;
+}
+.footer1__articles__header{
+  font-size: 24px;
+}
+.article__readmore{
+  padding-right: 15px;
+  padding-top: 12px;
+}
+
+/*      */
+.BackGround-header{
+  height: 798px;
+}
+.BackGround-about{
+
+  height:342px;
+}
+.about{
+  width: 768px;
+  height:340px;
+}
+.BackGround-content{
+
+  height: 488px;
+}
+.content{
+  width: 768px;
+  height: 485px;
+
+  padding-top: 13%;
+
+}
+
+.comment__header{
+  padding-bottom: 17px;
+}
+.comment__container{
+  width: 47%;
+
+}
+.comment__img{
+  float: left;
+  clear: both;
+  margin-left: 4px;
+  margin-right: 15px;
+
+}
+
+.comment__comment{
+  height: 49px;
+    margin-bottom: 18px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+
+.comment__text{
+  font-family: "Open Sans Regular";
+  font-weight: 900;
+font-size: 20px;
+}
+.comment__date{
+  font-family: "Open Sans Light";
+font-size: 16px;
+}
+
+.comment__readmore{
+  font-family: 'League Gothic Regular';
+  float: right;
+  margin-top: 2px;
+  margin-right: 32px;
+
+}
+.comment__readmore__link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #454545;
+
+}
+.comment__readmore__link:hover{
+  text-shadow:#000 0px 0px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.BackGround-brands{
+  height: 120px;
+}
+
+
+
+
+
+
+
+.brands{
+  width: 768px;
+  height: 120px;
+  padding: 3.3% 0 0 4px;
+}
+
+
+.brands-logo1{
+  display: inline-block;
+  height: 64px;
+  width: 69px;
+  background-image: url(../img/sprite-logo.png);
+}
+.brands-logo2{
+  display: inline-block;
+  margin-left: 51px;
+  height: 64px;
+  width: 73px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -72px;
+}
+.brands-logo3{
+  display: inline-block;
+  margin-left: 51px;
+  height: 64px;
+  width: 65px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -148px;
+}
+.brands-logo4{
+  display: inline-block;
+  margin-left: 61px;
+  height: 64px;
+  width: 51px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -214px;
+}
+.brands-logo5{
+  display: inline-block;
+  margin-left: 56px;
+  height: 64px;
+  width: 105px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -270px;
+}
+.brands-logo6{
+  display: inline-block;
+  margin-left: 52px;
+  height: 64px;
+  width: 80px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -383px;
+}
+
+
+
+/*      */
+
+.BackGround-footer1{
+  height: 397px;
+}
+
+.footer1__articles__text{
+
+
+  height: 117px;
+    font-family: "Open Sans Light";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.footer1__articles__headerLogo{
+
+
+  font-family: "League Gothic Regular", Arial, Helvetica, sans-serif;
+  font-size: 47px;
+  padding-bottom: 14px;
+  color: #454545;
+}
+.footer1__articles__header{
+
+}
+.footer1__copyright{
+
+  display: block;
+clear: left;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+    font-size: 16px;
+    color: #c5c5c5;
+     text-shadow:#fff 1px 1px 1px;
+
+}
+
+
+.footer1__articles__text:nth-child(2) {
+  height: 170px;
+}
+
+.footer1__articles:first-child{
+margin-left: 0;
+}
+
+
+
+
+
+.footer1{
+  width: 768px;
+  height: 400px;
+  padding-top: 13.3%;
+}
+.footer1__articles:last-child{
+margin-left: 6.3%;
+margin-right: 0;
+}
+
+.BackGround-footer2{
+height: 201px;
+}
+
+.footer2{
+  width: 768px;
+  height: 201px;
+}
+
+
+.menu--footer .menu__link{
+font-size: 20px;
+padding: 0 4px 1px 0px;
+}
+.menu--footer .menu__item{
+  margin-top: 47px;
+  margin-left: 37px;
+}
+.menu--footer .menu__item:first-child {
+margin-left: 0px;
+}
+.menu--footer .menu__item:last-child {
+margin-left: 35px;
+}
+
+
+
+.designed{
+
+  padding-top: 36px;
+  padding-right: 43px;
+    font-size: 13px;
+    float:right;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  header{
+    width: 480px;
+    height: 548px;
+
+  }
+
+
+.logo{
+  width: 31.8%;
+  float:none;
+  display: block;
+  margin: 0 auto;
+}
+
+.menu{
+  display: none;
+}
+.menu--footer{
+  display: block;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/*/
+
+.menu-small{
+padding-top: 20px;
+width: 51%;
+margin: 0 auto;
+
+}
+
+.menu-small__item-general{
+  text-align: center;
+padding-bottom: 0px;
+padding-top: 13px;
+}
+.menu-small__item{
+  text-align: center;
+padding-bottom: 0px;
+padding-top: 6px;
+
+}
+.menu-small__item-general{
+  border-top: 1px solid rgba(0, 0, 0, 0);
+
+}
+.menu-small__link:first-child{
+  padding-top: 0;
+  padding-bottom: 9px;
+  display: block;
+}
+
+.menu-small__link{
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+
+}
+.menu-small .menu-small__item-general:hover .dropdown {
+display: block;
+
+background: rgba(62, 49, 69, 0.9);
+
+
+box-sizing: border-box;
+}
+.menu-small__item-general:hover{
+  background: rgba(62, 49, 69, 0.9);
+  border-radius: 6px;
+  border:1px solid #101a20;
+  box-sizing: border-box;
+}
+
+
+
+
+.menu-small__item-general{
+  position: relative;
+}
+
+
+
+.dropdown {
+  display: none;
+
+
+}
+.menu-small .menu-small__item{
+  border-top: 2px solid #523e5a;
+  border-bottom: 2px solid #36283e;
+
+}
+.menu-small__item:hover{
+  border-bottom: 2px solid #edbfff;
+  box-sizing: border-box;
+  background: rgba(45, 36, 50, 0.7);
+}
+.menu-small__item:last-child{
+  border-bottom: 0;
+
+}
+
+
+
+.article{
+  margin-top:12.7%;
+padding: 0 0% 0 17.4%;
+width: 77%;
+
+}
+.article__header{
+  font-size: 24px;
+
+}
+.article__text{
+height: 71px;
+}
+
+.article__text{
+font-family: "Open Sans Light";
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+  padding-top: 0.8%;
+}
+.article__readmore{
+  margin-top: 4.8%;
+}
+
+/* ISPRAVIT*/
+.BackGround-header{
+    height: 548px;
+
+}
+
+.BackGround-about{
+padding-top: 2.3%;
+  height:598px;
+}
+.about{
+  width: 480px;
+  height:340px;
+}
+.article__logo{
+
+  top: 5%;
+  left: 7.5%;
+}
+.BackGround-content{
+
+  height: 788px;
+}
+.content{
+  width: 480px;
+  height: 788px;
+
+
+}
+
+.start__container {
+  margin-top: 14.7%;
+  margin-left: 9%;
+  width: 78.7%;
+  height: 31.2%;
+  padding-top: 5.6%;
+  padding-left: 8.2%;
+
+}
+
+.start__header1{
+  font-size: 30px;
+  display: inline-block;
+}
+.start__header2{
+display: inline-block;
+
+  font-size: 30px;
+}
+
+.start__text{
+      width: 93%;
+    height: 70%;
+    padding-top: 3.5%;
+    line-height: 24px;
+  }
+  .start__face{
+
+    top:6.6%;
+    left:-5.7%;
+  }
+
+
+.comment__container{
+  padding-top: 18.4%;
+  padding-left: 16.8%;
+}
+
+
+.comment__header{
+  padding-bottom: 17px;
+}
+.comment__container{
+  width: 70.7%;
+
+}
+.comment__img{
+  float: left;
+  clear: both;
+  margin-left: 4px;
+  margin-right: 15px;
+
+}
+
+.comment__comment{
+  height: 49px;
+    margin-bottom: 18px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+
+.comment__text{
+  font-family: "Open Sans Regular";
+  font-weight: 900;
+font-size: 20px;
+}
+.comment__date{
+  font-family: "Open Sans Light";
+font-size: 16px;
+}
+
+.comment__readmore{
+  font-family: 'League Gothic Regular';
+  float: right;
+  margin-top: 1px;
+
+
+}
+.comment__readmore__link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #454545;
+
+}
+.comment__readmore__link:hover{
+  text-shadow:#000 0px 0px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.BackGround-brands{
+  height: 232px;
+}
+
+
+.brands{
+  width: 480px;
+  height: 232px;
+
+}
+
+.brands{
+
+padding: 5.4% 0 0 0;
+}
+
+.brands-logo1{
+  display: inline-block;
+  margin-left: 17.3%;
+  height: 64px;
+  width: 69px;
+  background-image: url(../img/sprite-logo.png);
+
+}
+.brands-logo2{
+  display: inline-block;
+  margin-left: 10.5%;
+  height: 64px;
+  width: 75px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -71px;
+}
+
+.brands-logo3{
+  display: inline-block;
+  margin-left: 10.4%;
+  height: 64px;
+  width: 65px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -148px;
+}
+.brands-logo4{
+  margin-top: 4.8%;
+  display: inline-block;
+  margin-left: 13.9%;
+  height: 64px;
+  width: 51px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -214px;
+}
+.brands-logo5{
+  display: inline-block;
+  margin-left: 11.7%;
+  height: 64px;
+  width: 105px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -270px;
+}
+.brands-logo6{
+  display: inline-block;
+  margin-left: 10.4%;
+  height: 64px;
+  width: 80px;
+  background-image: url(../img/sprite-logo.png);
+  background-position: -383px;
+}
+
+
+
+
+
+
+
+
+
+
+/*     */
+.BackGround-footer1{
+  height: 669px;
+}
+.footer1{
+  width: 480px;
+  height: 669px;
+  padding-top: 3.5%;
+
+
+}
+
+
+
+
+.footer1__articles__text{
+
+  height: 47px;
+    font-family: "Open Sans Light";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.footer1__articles__headerLogo{
+  font-family: "League Gothic Regular", Arial, Helvetica, sans-serif;
+  font-size: 47px;
+  padding-bottom: 14px;
+  color: #454545;
+}
+
+.footer1__copyright{
+
+  display: block;
+
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+    font-size: 16px;
+    color: #c5c5c5;
+     text-shadow:#fff 1px 1px 1px;
+
+}
+.footer1__articles__header{
+  font-size: 24px;
+}
+.footer1__articles{
+margin-top: 53px;
+margin-left:3.7%;
+margin-right: 2%;
+}
+.footer1__articles__text:nth-child(2){
+
+  height:100px;
+}
+
+
+
+
+
+
+
+
+
+
+.BackGround-footer2{
+height: 201px;
+}
+.footer2{
+  width: 480px;
+  height: 201px;
+}
+
+.menu--footer .menu__link{
+font-size: 20px;
+padding: 0 4px 1px 4px;
+}
+.menu--footer .menu__item{
+  margin-top: 47px;
+  margin-left: 14px;
+}
+.menu--footer .menu__item:first-child {
+margin-left: 17px;
+}
+.menu--footer .menu__item:last-child {
+margin-left: 15px;
+}
+
+
+
+.designed{
+display: block;
+  padding-top: 102px;
+  font-size: 13px;
+  text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 479px) {
+
+    header{
+      width: 320px;
+      height: 516px;
+
+    }
+
+
+  .logo{
+    width: 46.8%;
+    float:none;
+    display: block;
+    margin: 0 auto;
+  }
+  .menu{
+    display: none;
+  }
+  .menu--footer{
+    display: none;
+  }
+
+
+.BackGround-footer1{
+  display: none
+
+}
+  .footer1{
+    display: none
+  }
+
+
+
+
+
+
+
+
+  .menu-small{
+  padding-top: 23px;
+  width: 51%;
+  margin: 0 auto;
+
+  }
+
+  .menu-small__item-general,
+  .menu-small__item{
+    text-align: center;
+  padding-bottom: 0px;
+  padding-top: 8px;
+
+  }
+  .menu-small__item-general{
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.0);
+
+  }
+  .menu-small__link:first-child{
+    padding-top: 0;
+    padding-bottom: 9px;
+    display: block;
+
+  }
+
+  .menu-small__link{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+
+  }
+  .menu-small .menu-small__item-general:hover .dropdown {
+  display: block;
+  }
+  .menu-small .menu-small__item-general:hover{
+  background: rgba(74, 54, 80, 0.8);
+  background: rgba(62, 49, 69, 0.9);
+  border-radius: 5px;
+  border:1px solid #101a20;
+  box-sizing: border-box;
+
+}
+
+
+  .menu-small__item-general{
+    position: relative;
+  }
+  .dropdown {
+    display: none;
+
+
+
+
+  box-sizing: border-box;
+  }
+  .menu-small .menu-small__item{
+    border-top: 1px solid #523e5a;
+    border-bottom: 1px solid #37283f;
+
+
+  }
+  .menu-small__item:hover{
+    border-bottom: 1px solid #edbfff;
+    box-sizing: border-box;
+    background: rgba(45, 36, 50, 0.5);
+  }
+
+
+  .menu-small__item:last-child{
+    border-bottom: 0;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .article{
+    margin-top:18.6%;
+  padding-left: 26%;
+  width: 65.7%;
+
+  }
+
+.article:last-child{
+  margin-top:23.6%;
+}
+
+  .article__header{
+    font-size: 24px;
+
+  }
+
+
+  .article__text{
+      height: 71px;
+  font-family: "Open Sans Light";
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    padding-top: 1.2%;
+  }
+  .article__readmore{
+    margin-top: 8%;
+  }
+
+  /* ISPRAVIT*/
+  .BackGround-header{
+      height: 516px;
+
+  }
+
+  .BackGround-about{
+  padding-top: 2.3%;
+    height:598px;
+  }
+  .about{
+    width: 320px;
+    height: auto;
+  }
+  .article__logo{
+
+    top: 4%;
+    left: 11.3%;
+  }
+  .BackGround-content{
+
+    height: 788px;
+  }
+  .content{
+    width: 320px;
+    height: 788px;
+
+
+
+  }
+
+  .start__container {
+    margin-top: 21.7%;
+    margin-left: 13.7%;
+    width: 69%;
+    height: 31.5%;
+    padding-top: 7.9%;
+    padding-left: 10.8%;
+
+  }
+
+  .start__header1{
+    font-size: 24px;
+    display: block;
+  }
+  .start__header2{
+  display: block;
+
+    font-size: 24px;
+  }
+
+  .start__text{
+    margin-left: 2%;
+        width: 88%;
+      height: 67%;
+      padding-top: 2%;
+      line-height: 24px;
+    }
+    .start__face{
+
+      top:6.6%;
+      left:-9.6%;
+    }
+
+
+
+    .comment__container{
+      padding-top: 27.4%;
+      padding-left: 5.6%;
+        width: 86.7%;
+    }
+
+
+    .comment__header{
+      padding-bottom: 17px;
+    }
+
+    .comment__img{
+      float: left;
+      clear: both;
+      margin-left: 2px;
+      margin-right: 16px;
+
+    }
+
+    .comment__comment{
+      height: 49px;
+        margin-bottom: 18px;
+        line-height: 21px;
+        overflow: hidden;
+    }
+
+
+    .comment__text{
+      font-family: "Open Sans Regular";
+      height: 24px;
+      font-weight: 900;
+    font-size: 19px;
+    overflow: hidden;
+    }
+    .comment__date{
+      font-family: "Open Sans Light";
+    font-size: 16px;
+    }
+
+    .comment__readmore{
+      font-family: 'League Gothic Regular';
+      float: right;
+      margin-top: 1px;
+
+
+    }
+    .comment__readmore__link{
+        text-decoration: none;
+        font-size: 18px;
+        color: #454545;
+
+    }
+    .comment__readmore__link:hover{
+      text-shadow:#000 0px 0px 12px;
+    }
+
+
+
+
+
+
+
+  .BackGround-brands{
+    height: 422px;
+  }
+
+
+  .brands{
+    width: 320px;
+    height: auto;
+  }
+
+  .brands{
+
+  padding: 13.4% 0 0 0;
+  }
+
+  .brands-logo1{
+    display: inline-block;
+    margin-left: 19.6%;
+    height: 64px;
+    width: 69px;
+    background-image: url(../img/sprite-logo.png);
+
+  }
+  .brands-logo2{
+    display: inline-block;
+    margin-left: 15.7%;
+    height: 64px;
+    width: 75px;
+    background-image: url(../img/sprite-logo.png);
+    background-position: -71px;
+  }
+
+  .brands-logo3{
+    margin-top: 18.2%;
+    display: inline-block;
+    margin-left: 21.6%;
+    height: 64px;
+    width: 65px;
+    background-image: url(../img/sprite-logo.png);
+    background-position: -148px;
+  }
+  .brands-logo4{
+    display: inline-block;
+    margin-left: 19.3%;
+    height: 64px;
+    width: 51px;
+    background-image: url(../img/sprite-logo.png);
+    background-position: -214px;
+  }
+  .brands-logo5{
+    margin-top: 12.4%;
+    display: inline-block;
+    margin-left: 13%;
+    height: 64px;
+    width: 105px;
+    background-image: url(../img/sprite-logo.png);
+    background-position: -270px;
+  }
+  .brands-logo6{
+    display: inline-block;
+    margin-left: 16.4%;
+    height: 64px;
+    width: 80px;
+    background-image: url(../img/sprite-logo.png);
+    background-position: -383px;
+  }
+
+
+
+
+
+
+
+
+
+
+  .footer2{
+    width: 320px;
+    height: 201px;
+  }
+
+
+
+
+  .designed{
+  display: block;
+    padding-top: 12.7%;
+    font-size: 13px;
+    margin-left: 28.3%;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+header,
+.about,
+.content,
+.brands,
+.footer1,
+.footer2{
+  margin: 0 auto;
+}
+/**/
+
+/* header*/
+header{
+  padding-top: 70px;
+
+}
+.logo{
+
+}
+
+
+
+
+.menu__link{
+font-size: 24px;
+display: block;
+text-decoration: none;
+color: #ffffff;
+  text-shadow:#525252 1px 2px 2px;
+
+}
+
+
+.menu__item{
+  display: inline-block;
+  margin-left: 6.5%;
+}
+
+.menu__item:first-child{
+  margin-left: 0;
+}
+
+.menu__item:last-child {
+  margin-left: 6.4%;
+}
+
+.menu__item:hover{
+  border-bottom: 2px solid #edbfff;
+}
+
+
+
+/* about */
+
+.article__logo{
+  position: absolute;
+
+}
+
+.article{
+position: relative;
+
+  text-shadow:#000 1px 1px 2px;
+}
+.article__header{
+  font-family: "League Gothic Regular", Arial, Helvetica, sans-serif;
+
+
+  color: #fff;
+
+}
+.article__text{
+font-family: "Open Sans Light";
+  color: #fff;
+
+  overflow: hidden;
+}
+
+.article:last-child{
+
+padding-right:0;
+
+}
+
+.article__readmore{
+  display: block;
+  float:right;
+  color: white;
+
+}
+.article__readmore__link{
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+.article__readmore__link:hover{
+   text-shadow:#fff 0px 0px 12px;
+}
+/* content */
+.content{
+
+}
+.start__header2{
+  color: #edbfff;
+}
+
+
+/* content */
+.content{
+
+}
+.start__container {
+  background-color: rgb(255, 255, 255);
+
+  position: relative;
+}
+
+.start__text{
+    font-family: "Open Sans Light";
+        overflow: hidden;
+  }
+
+.start__face{
+  position: absolute;
+
+
+}
+
+
+.comment__container{
+  float:left;
+}
+
+.comment__header{
+  font-size: 30px;
+}
+
+
+
+
+
+/* footer 1 */
+
+
+
+
+/* footer 2 */
+
+.footer2{
+
+}
+
+.menu--footer{
+float: left;
+}
+
+
+.designed{
+font-family: 'Open Sans Regular';
+  text-shadow:#525252 1px 2px 2px;
+
+
+
+  color: #fff;
+
+
+}
+
+.designed__link{
+font-family: 'Open Sans Regular';
+  text-decoration: none;
+color: #fff;
+font-weight: 900;
+}

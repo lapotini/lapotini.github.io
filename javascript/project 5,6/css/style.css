@@ -1,0 +1,43 @@
+
+body{
+  background: url(../img/1.png) repeat;
+}
+.wrapper{
+  width: 50%;
+
+  margin: 15% auto;
+
+}
+
+#timerNum{
+  display: block;
+  padding: 3%;
+  color: #33A4FD;
+  font-size: 50px;
+  margin-left: 20%;
+}
+.btn-primary{
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  width: 100px;
+  margin-right: 7%;
+  outline: none;
+}
+.btn-primary:last-of-type{
+  margin-right:0;
+}
+.buttonContainer{
+  text-align: center;
+}
+.resultContainer{
+  text-align: center;
+  padding-top: 3%;
+}
+
+.interval{
+
+  font-size:30px;
+  font-family: Arial, sans-serif;
+  color: yellow;
+  margin: 10px;
+}

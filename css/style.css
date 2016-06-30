@@ -1,0 +1,116 @@
+body{
+    background: url(../img/3.png) repeat;
+    height: 100%;
+    padding-top: 20px;
+
+}
+
+.logo{
+    width: 97px;
+    height: 64px;
+    display: block;
+    background-image: url(../img/logos.png);
+}
+.gitLink{
+    width: 20%;
+    margin-left: 6%;
+    display: block;
+    bottom: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+}
+.gitLink:hover{
+    color: #f5e165;
+}
+
+.js{
+    width: 47px;
+    height: 64px;
+    display: block;
+    background-image: url(../img/logos.png);
+    background-position: 47px 0;
+}
+
+.head{
+    color: white;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 17px;
+
+}
+.topHead{
+    margin: 0 auto;
+    width: 30%;
+    font-size: 40px;
+}
+
+.listContainer{
+    float:left;
+    width: 40%;
+    margin: 25px 0 20px 100px;
+}
+
+
+
+
+ul {
+
+    width: 500px;
+    counter-reset: li; /* Устанавливает идентификатор */
+    list-style: none;
+    font: 15px 'trebuchet MS', 'lucida sans', sans-serif;
+    /*text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+}
+
+ul ul {
+    width: 465px;
+    margin: 0 0 0 35px;
+}
+
+.list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #bcbcbc;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.list a:hover{
+    background: #eee;
+    color: #3f51b5;
+}
+
+.list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #2386fa;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.list a:after{
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.list a:hover:after{
+    left: -.5em;
+    border-left-color: #2386fa;
+}

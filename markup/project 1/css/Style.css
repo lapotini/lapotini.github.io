@@ -1,0 +1,65 @@
+.profile{
+  width: 60%;
+  background-color: rgba(241, 241, 241, 0.67);
+  margin: 50px auto;
+  padding: 30px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.head{
+  padding: 15px;
+}
+.content,
+.contacts,
+.feedback{
+  border-top: 1px solid black;
+  padding: 15px;
+
+}
+
+.profile p{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+.profile span{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+
+  .name,
+  .position{
+    text-align: center;
+    margin: 15px;
+    font-weight: 500;
+
+  }
+   .foto{
+     display: block;
+     margin: 0 auto;
+   }
+
+ .name{
+
+   font-size: 25px;
+ }
+
+ .contacts a:visited{
+   color: inherit;
+ }
+ .contacts a:hover{
+   color: grey;
+ }
+
+ .reasons{
+   list-style: disc;
+   margin-left: 25px;
+ }
+ .reasons li{
+   list-style: disc;
+   margin-top: 7px;
+ }
