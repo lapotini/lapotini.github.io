@@ -1,6 +1,6 @@
 require.config({
     paths: {
-       'jquery': 'http://code.jquery.com/jquery-1.11.3.min',
+       'jquery': 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js',
        'tmpl': 'tmpl'
     },
     shim: {
