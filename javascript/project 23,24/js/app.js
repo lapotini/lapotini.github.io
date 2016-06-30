@@ -1,6 +1,6 @@
 require.config({
     paths: {
-       'jquery': 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js',
+       'jquery': 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery',
        'tmpl': 'tmpl'
     },
     shim: {
