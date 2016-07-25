@@ -2,6 +2,7 @@ body{
     background: url(../img/3.png) repeat;
     height: 100%;
     padding-top: 20px;
+    min-height: 1000px;
 
 }
 
