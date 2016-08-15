@@ -1,6 +1,7 @@
 $(function ($) {
 
 
+
     var jcarousel = $('.jcarouselSmall');
 
     jcarousel
@@ -8,12 +9,12 @@ $(function ($) {
             var carousel = $(this),
                 width = carousel.innerWidth();
 
-            if (width >= 850) {
+            if (width >= 900) {
                 width = width / 4;
-            } else if (width >= 600) {
+            } else if (width >= 840) {
                 width = width / 3;
             }
-            else if (width >= 540) {
+            else if (width >= 808) {
                 width = width / 2;
             }
             else if (width >= 450) {

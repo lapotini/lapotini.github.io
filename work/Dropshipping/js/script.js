@@ -10,11 +10,11 @@ $(function($)  {
         wrap: 'circular'
 
     })
-        .jcarouselAutoscroll({
-            interval: 12000,
-            target: '+=1',
-            autostart: true
-        });
+        // .jcarouselAutoscroll({
+        //     interval: 12000,
+        //     target: '+=1',
+        //     autostart: true
+        // });
 
 
     pagination.on('jcarouselpagination:active', 'a', function () {
@@ -44,15 +44,15 @@ $(function($)  {
             var carousel = $(this),
                 width = carousel.innerWidth();
 
-            if (width >= 850) {
+            if (width >= 860) {
                 width = width / 4;
-            } else if (width >= 600) {
+            } else if (width >= 655) {
                 width = width / 3;
             }
-            else if (width >= 540) {
+            else if (width >= 420) {
                 width = width / 2;
             }
-            else if (width >= 450) {
+            else if (width >= 410) {
                 width = width;
             }
 
