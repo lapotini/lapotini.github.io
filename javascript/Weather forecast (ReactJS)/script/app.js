@@ -41,7 +41,7 @@ var WeatherWidget = React.createClass({
 	},
 	
     componentDidMount: function(){
-        this.timer = setInterval(this.tick, 30000);
+        this.timer = setInterval(this.tick, 600000);
 		this.updateWeatherURL();
     },
 

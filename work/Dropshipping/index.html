@@ -2,13 +2,15 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUS Dropshiping</title>
     <link rel="stylesheet" href="css/reset.css" type="text/css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-
+    <script type="text/javascript" src="js/function.js"></script>
+    <script type="text/javascript" src="js/functionView.js"></script>
+    <script type="text/javascript" src="js/scriptModalWindow.js"></script>
 
 
 </head>
@@ -20,18 +22,45 @@
     <div class="one" id="one">
         <div class="top-line">
             <div class="section">
-                <span><a href="http://rusoptovik.ru/">http://rusoptovik.ru/</a></span>
-                <span><a href="http://rusoptovik.ru/">http://rusoptovik.ru/</a></span>
-                <span><a href="http://rusoptovik.ru/">http://rusoptovik.ru/</a></span>
+                <span class="top-line__links"><a href="http://rusoptovik.ru/">http://rusoptovik.ru/</a></span>
+                <span class="top-line__links"><a href="http://rusoptovik.ru/">http://rusoptovik.ru/</a></span>
+                <span class="top-line__links"><a href="http://rusoptovik.ru/">http://rusoptovik.ru/</a></span>
             </div>
         </div>
         <div class="header">
             <div class="section top-section">
-                <img id="logo" src="image/logo.png"/>
+                <img id="logo" src="image/logo.png" alt=""/>
 
                 <div class="top-search">
                     <input class="top-search__input" type="text" placeholder="Поиск..."/>
                     <input class="top-search__button" type="submit" value="">
+                    <ul class="search__history">
+                        <li>
+                            <img class="search__history-image" src="image/searchHistory.jpg" alt=""/>
+                            <a class="search__history-link" href="#">Часы Tissot Tradition Chronograph T063.617.16.057.00 оптом</a>
+                            <span class="search__history-price">2 250 руб.</span>
+                        </li>
+                        <li>
+                            <img class="search__history-image" src="image/searchHistory.jpg" alt=""/>
+                            <a class="search__history-link" href="#">Часы Tissot Tradition Chronograph T063.617.16.057.00 оптом</a>
+                            <span class="search__history-price">2 250 руб.</span>
+                        </li>
+                        <li>
+                            <img class="search__history-image" src="image/searchHistory.jpg" alt=""/>
+                            <a class="search__history-link" href="#">Часы Tissot Tradition Chronograph T063.617.16.057.00 оптом</a>
+                            <span class="search__history-price">2 250 руб.</span>
+                        </li>
+                        <li>
+                            <img class="search__history-image" src="image/searchHistory.jpg" alt=""/>
+                            <a class="search__history-link" href="#">Часы Tissot Tradition Chronograph T063.617.16.057.00 оптом</a>
+                            <span class="search__history-price">2 250 руб.</span>
+                        </li>
+                        <li>
+                            <img class="search__history-image" src="image/searchHistory.jpg" alt=""/>
+                            <a class="search__history-link" href="#">Часы Tissot Tradition Chronograph T063.617.16.057.00 оптом</a>
+                            <span class="search__history-price">2 250 руб.</span>
+                        </li>
+                    </ul>
                 </div>
                 <span class="phoneTop">+38 063 030 58 58</span>
 
@@ -40,7 +69,7 @@
                     <a href="javascript:;" class="socialLink-fb"></a>
                 </div>
                 <div class="account">
-                    <div class="log-in"><a href="javascript:;">Вход</a></div>
+                    <div class="log-in"><a href="javascript:;">ВХОД</a></div>
                     <div class="sign-up"><a href="javascript:;">Регистрация</a></div>
                 </div>
 
@@ -52,13 +81,74 @@
                     <a href="javascript:;"><img src="image/menuIcon.png" alt=""/></a>
                 </div>
                 <ul class="menu">
-                    <li><a href="javascript:;">Каталог <img src="image/menuIcon.png" alt=""/></a></li>
-                    <li><a href="javascript:;">Преимущества</a></li>
-                    <li><a href="javascript:;">Услуги</a></li>
-                    <li><a href="javascript:;">Тарифы</a></li>
-                    <li><a href="javascript:;">Ответы</a></li>
+                    <li class="catalog"><a href="javascript:;">Каталог <img src="image/menuIcon.png" alt=""/></a>
+                        <ul class="sub-menu">
+                            <li><a href="">Популярное</a></li>
+                            <li><a href="">Авто</a></li>
+                            <li><a href="">Часы</a></li>
+                            <li><a href="">Очки</a></li>
+                            <li><a class="parent" href="">Хозтовары</a>
+                                <ul class="sub-menuCatalog">
+                                    <li class="sub-menuCatalog__items"><h4>ТОВАРЫ ДЛЯ ВАННОЙ КОМНАТЫ</h4>
+                                        <ul class="sub-menuCatalog__children">
+                                            <li><a href="">Аксессуары для зубных щеток</a></li>
+                                            <li><a href="">Принадлежности для ванны и душа</a></li>
+                                            <li><a href="">Губки о мочалки для тела</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menuCatalog__items"><h4>Бытовая химия</h4>
+                                        <ul class="sub-menuCatalog__children">
+                                            <li><a href="">Средства для мебели и текстиля</a></li>
+                                            <li><a href="">Средства для плит</a></li>
+                                            <li><a href="">Средства для стеклокерамики</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menuCatalog__items"><h4>Товары для уборки</h4>
+                                        <ul class="sub-menuCatalog__children">
+                                            <li><a href="">Щетки, веники и метлы</a></li>
+                                            <li><a href="">Губки и щетки для посуды</a></li>
+                                            <li><a href="">Водосгоны и окномойки</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menuCatalog__items"><h4>Весы</h4>
+                                        <ul class="sub-menuCatalog__children">
+                                            <li><a href="">Кухонные весы </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menuCatalog__items"><h4>Товары для Стирки и глажки</h4>
+                                        <ul class="sub-menuCatalog__children">
+                                            <li><a href="">Мешки для стирки и сетки для глажения</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="">Товары для кухни</a></li>
+                            <li><a href="">Игрушки</a></li>
+                            <li><a href="">Товары для детей</a></li>
+                            <li><a href="">Красота и здоровье</a></li>
+                            <li><a href="">Кожгалантерея</a></li>
+                            <li><a href="">Спорт и отдых</a></li>
+                            <li><a href="">Самооборона</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">Услуги</a>
+                        <ul class="sub-menu">
+                            <li><a href="">Дропшиппинг</a></li>
+                            <li><a href="">Аутсорсинг</a></li>
+                            <li><a href="">Call цент</a></li>
+                            <li><a href="">Доставка по Москве и МО</a></li>
+                            <li><a href="">Хранение товаров</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li><a href="javascript:;">Партнёрка</a></li>
+                    <li><a href="javascript:;">Как мы работаем</a></li>
                     <li><a href="javascript:;">Отзывы</a></li>
-                    <li><a href="javascript:;">Заявка</a></li>
+                    <li><a href="javascript:;">Поставщикам</a></li>
+                    <li><a href="javascript:;">Блог</a></li>
+                    <li><a href="javascript:;">Контакты</a></li>
                 </ul>
             </div>
         </div>
@@ -71,10 +161,10 @@
                         <div class="first-line">
                             <h2 class="product">Надувной диван</h2>
 
+                            <h2 class="product__brand">Lamzac</h2>
                             <div class="product__image">
                                 <img src="image/divan.png" alt=""/>
                             </div>
-                            <h2 class="product__brand">Lamzac</h2>
                         </div>
                         <div class="down-block">
                             <div class="inb down-block-left">
@@ -86,7 +176,7 @@
 
                                         <p>производства</p>
                                     </div>
-                                    <a class='butt' href="javascript:;">купить оптом</a>
+                                    <a class='butt' href="javascript:;">по дропшиппингу</a>
                                 </div>
 
                                 <div class="circle">
@@ -174,7 +264,7 @@
 
 
                 <div class="smallLogo">
-                    <img src="image/logoSmall.png" alt=""/>
+                    <img src="image/logo.png" alt=""/>
                 </div>
                 <p class="jcarousel-pagination"></p>
             </div>
@@ -236,7 +326,7 @@
                             <li>
                                 <div class="usluga u1">
                                     <a href="">
-                                        <div class="icon"><img src="image/p1-2.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p1-2.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -245,7 +335,7 @@
                             <li>
                                 <div class="usluga u2">
                                     <a href="">
-                                        <div class="icon"><img src="image/p1-2.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p1-2.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -254,7 +344,7 @@
                             <li>
                                 <div class="usluga u3">
                                     <a href="">
-                                        <div class="icon"><img src="image/p1-3.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p1-3.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -263,7 +353,7 @@
                             <li>
                                 <div class="usluga u4">
                                     <a href="">
-                                        <div class="icon"><img src="image/p1-4.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p1-4.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -287,7 +377,7 @@
                             <li>
                                 <div class="usluga u5">
                                     <a href="">
-                                        <div class="icon"><img src="image/p1-3.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p1-3.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -296,7 +386,7 @@
                             <li>
                                 <div class="usluga u6">
                                     <a href="">
-                                        <div class="icon"><img src="image/p2-2.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p2-2.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -306,7 +396,7 @@
                             <li>
                                 <div class="usluga u7">
                                     <a href="">
-                                        <div class="icon"><img src="image/p2-3.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p2-3.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -315,7 +405,7 @@
                             <li>
                                 <div class="usluga u8">
                                     <a href="">
-                                        <div class="icon"><img src="image/p2-4.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p2-4.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -338,7 +428,7 @@
                             <li>
                                 <div class="usluga u9">
                                     <a href="">
-                                        <div class="icon"><img src="image/p1-4.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p1-4.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -347,7 +437,7 @@
                             <li>
                                 <div class="usluga u10">
                                     <a href="">
-                                        <div class="icon"><img src="image/p1-1.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p1-1.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -356,7 +446,7 @@
                             <li>
                                 <div class="usluga u11">
                                     <a href="">
-                                        <div class="icon"><img src="image/p3-3.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p3-3.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -365,7 +455,7 @@
                             <li>
                                 <div class="usluga u12">
                                     <a href="">
-                                        <div class="icon"><img src="image/p3-4.jpg" alt="" /></div>
+                                        <div class="icon"><img src="image/p3-4.jpg" alt=""/></div>
                                         <div class="text">Надувной диван Lamzac (Ламзак)</div>
                                         <div class="price sb">1450 <span>руб.</span></div>
                                     </a>
@@ -918,17 +1008,19 @@
             <div class="footer">
                 <div class="oplata-block">
                     <h3 class="headerBlock">Мы принимаем</h3>
+
                     <div class="images">
-                      <div class="visa"><img src="image/viza.png"/></div>
-                      <div class="master"><img src="image/mc.png"/></div>
-                      <div class="yad"><img src="image/yad.png"/></div>
-                      <div class="qiwi"><img src="image/qw.png"/></div>
-                      <div class="wm"><img src="image/wm.png"/></div>
+                        <div class="visa"><img src="image/viza.png" alt=""/></div>
+                        <div class="master"><img src="image/mc.png" alt=""/></div>
+                        <div class="yad"><img src="image/yad.png" alt=""/></div>
+                        <div class="qiwi"><img src="image/qw.png" alt=""/></div>
+                        <div class="wm"><img src="image/wm.png" alt=""/></div>
                     </div>
                     <h3 class="headerBlock headDost">Отправляем товар</h3>
+
                     <div class="images">
-                      <div class="cdek"><img src="image/dost1.png"/></div>
-                      <div class="pr"><img src="image/dost2.png"/></div>
+                        <div class="cdek"><img src="image/dost1.png" alt=""/></div>
+                        <div class="pr"><img src="image/dost2.png" alt=""/></div>
                     </div>
                 </div>
                 <div class="menu-footer-block">
@@ -962,8 +1054,7 @@
 
 
                 <!--<iframe src="http://vk.com/widget_community.php?gid=20003922&width=220&height =400" width="220"-->
-                        <!--height="400" scrolling="no" frameborder="0"></iframe>-->
-
+                <!--height="400" scrolling="no" frameborder="0"></iframe>-->
 
 
             </div>
@@ -974,6 +1065,67 @@
 
     </div>
 </div>
+
+
+<div class="modal"> <!-- все формы на фоне затемнения-->
+    <div class="modal-container"> <!-- основной контейнер -->
+
+
+        <div id="cd-login"> <!-- форма входа -->
+            <h1 class="modalHead">ВХОД</h1>
+
+            <form class="cd-form">
+                <div class="fieldset">
+                    <label for="signin-email">E-MAIL</label>
+                    <input id="signin-email" type="email" placeholder="E-mail">
+                </div>
+
+                <div class="fieldset">
+                    <label for="signin-password">ПАРОЛЬ</label>
+                    <input id="signin-password" type="password" placeholder="Введите пароль">
+
+                </div>
+
+                <div class="fieldset">
+                    <input type="checkbox" id="remember-me" checked>
+                    <label for="remember-me">Запомнить меня</label>
+
+                    <p class="cd-form-bottom-message"><a href="#0">Востановить пароль</a></p>
+                </div>
+                <div class="fieldset">
+                    <a class="reg" href="">ЗАРЕГЕСТРИРОВАТЬСЯ</a>
+                </div>
+
+                <input class="button" type="submit" value="Войти">
+
+            </form>
+
+
+        </div>
+
+
+        <div id="cd-reset-password"> <!-- форма восстановления пароля -->
+            <p class="cd-form-message">Забыли пароль? Пожалуйста, введите адрес своей электронной почты. Вы получите
+                ссылку, чтобы создать новый пароль.</p>
+
+            <form class="cd-form">
+                <p class="fieldset">
+                    <input id="reset-email" type="email" placeholder="E-mail">
+                </p>
+
+                <p class="fieldset">
+                    <input type="submit" value="Восстановить пароль">
+                </p>
+            </form>
+
+            <p class="cd-form-bottom-message"><a href="#0">Вернуться к входу</a></p>
+        </div>
+        <!-- cd-reset-password -->
+        <a href="#0" class="cd-close-form">Закрыть</a>
+    </div>
+    <!-- modal-container -->
+</div>
+<!-- modal -->
 
 
 </body>
