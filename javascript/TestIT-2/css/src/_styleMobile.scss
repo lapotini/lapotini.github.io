@@ -1,0 +1,49 @@
+@media screen and (max-width: 410px) {
+
+  aside {
+    width: auto;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    float: left;
+    min-height: 6400px;
+  }
+  header {
+    width: calc(100% - 66px);
+    background-position: -650px top;
+
+  }
+  .header__leftBlock__button{
+    margin: 20px 0;
+  }
+
+  .header__rightBlock {
+    display: none;
+  }
+  .header__playButton {
+    top: 5%;
+  }
+  .yogaStyleDescription {
+    width: calc(100% - 66px);
+    padding: 15px;
+  }
+  main {
+    width: calc(100% - 66px);
+    padding: 15px;
+  }
+
+  .videoBox {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+    max-height: 476px;
+    overflow: hidden;
+    min-width: 205px;
+  }
+
+  footer {
+    width: calc(100% - 66px);
+    padding: 15px;
+  }
+
+}

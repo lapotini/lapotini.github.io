@@ -1,0 +1,62 @@
+@media screen and (max-width: 890px) {
+
+  .yogaStyleDescription{
+    text-align: center;
+  }
+  .yogaStyleDescription__description {
+    width: auto;
+    margin-bottom: 15px;
+  }
+
+  .main__header{
+    text-align: center;
+  }
+  .subcats__left {
+    float: none;
+    text-align: center;
+    display: block;
+  }
+  .subcats__right {
+    text-align: center;
+    float: none;
+    width: auto;
+    line-height: 2em;
+    min-width: inherit;
+    display: block;
+    .subcats__selectWrapper,
+    .subcats__levelWrapper,
+    .subcats__durationWrapper {
+      padding: 0;
+      border: 0;
+      display: block;
+      float: none;
+      margin-top: 10px;
+    }
+    .subcats__duration,
+    .subcats__level {
+      margin: 0;
+    }
+
+  }
+
+
+
+  footer {
+    text-align: center;
+    h3{
+      margin-top: 10px;
+
+    }
+  }
+  .footer__download {
+    width: 70%;
+    float: none;
+    margin-top: 20px;
+  }
+  .footer__bottomText {
+    float: none;
+    margin: 20px 0 0 0;
+    display: block;
+
+  }
+}
