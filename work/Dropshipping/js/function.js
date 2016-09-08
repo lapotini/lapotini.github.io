@@ -10,14 +10,14 @@ $( document ).ready(function() {
                 width = carousel.innerWidth();
 
             if (width >= 860) {
-                width = width / 4;
-            } else if (width >= 655) {
-                width = width / 3;
+                width = width / 4.01;
+            } else if (width >= 628) {
+                width = width / 3.06;
             }
-            else if (width >= 420) {
-                width = width / 2;
+            else if (width >= 395) {
+                width = width / 2.04;
             }
-            else if (width >= 410) {
+            else if (width >= 389) {
                 width = width;
             }
 
@@ -75,7 +75,6 @@ $( document ).ready(function() {
             return '<a href="#' + page + '"></a>';
         }
     });
-
 
 
     //jcarousel

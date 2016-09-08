@@ -339,12 +339,12 @@ input:active {
     vertical-align: top;
     padding: 10px 0;
     display: block; }
-    .account .log-in,
-    .account .sign-up {
-      display: inline-block;
-      margin: 0; }
-    .account .log-in {
-      margin: 0 12% 0 12%; }
+  .account .log-in,
+  .account .sign-up {
+    display: inline-block;
+    margin: 0; }
+  .account .log-in {
+    margin: 0 12% 0 12%; }
   .top-line .top-line__links,
   .top-line .basketView {
     display: inline-block;
@@ -371,13 +371,13 @@ input:active {
     margin: 15px 0; }
   .top-line {
     text-align: center; }
-    .top-line .top-line__links,
-    .top-line .basketView {
-      display: block;
-      float: none;
-      max-width: 167px;
-      min-width: 167px;
-      margin: 0 auto; } }
+  .top-line .top-line__links,
+  .top-line .basketView {
+    display: block;
+    float: none;
+    max-width: 167px;
+    min-width: 167px;
+    margin: 0 auto; } }
 
 .top-menu {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#43434d+0,3b3b43+96,313035+100 */
@@ -684,18 +684,17 @@ ul.menu .sub-menuCatalog:hover {
 
 @media screen and (max-width: 730px) {
   .jcarouselSmall {
-    float: left;
-    width: 86%; } }
+    width: 86%;
+    padding: 5px 8px 0 0; } }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 475px) {
+  .jcarouselSmall {
+    width: 79%; } }
+
+@media screen and (max-width: 370px) {
   .jcarouselSmall {
     float: left;
-    width: 80%; } }
-
-@media screen and (max-width: 360px) {
-  .jcarouselSmall {
-    float: left;
-    width: 75%; } }
+    width: 73%; } }
 
 .jcarouselSmall ul {
   width: 20000em;
@@ -770,19 +769,22 @@ ul.menu .sub-menuCatalog:hover {
   opacity: 0;
   margin-bottom: 11px;
   z-index: 3; }
-  .one-block .first-line .product {
-    color: #2d2b2c;
-    max-width: 60%; }
-  .one-block .first-line .product__image {
-    position: absolute;
-    display: inline-block;
-    right: 4.6%;
-    top: 7%;
-    max-width: 50%; }
-  .one-block .first-line .product__brand {
-    color: #396e99;
-    font-size: 58px;
-    margin-top: 11px; }
+
+.one-block .first-line .product {
+  color: #2d2b2c;
+  max-width: 60%; }
+
+.one-block .first-line .product__image {
+  position: absolute;
+  display: inline-block;
+  right: 4.6%;
+  top: 7%;
+  max-width: 50%; }
+
+.one-block .first-line .product__brand {
+  color: #396e99;
+  font-size: 58px;
+  margin-top: 11px; }
 
 .down-block-left {
   position: relative;
@@ -814,8 +816,9 @@ ul.menu .sub-menuCatalog:hover {
   margin-left: 6px;
   font-family: 'Bulletin Sans Pro', arial, sans-serif;
   font-size: 50px; }
-  .circle p:first-child {
-    padding-top: 25px; }
+
+.circle p:first-child {
+  padding-top: 25px; }
 
 .butt {
   display: inline-block;
@@ -834,11 +837,12 @@ ul.menu .sub-menuCatalog:hover {
   text-align: center;
   box-shadow: 0 3px 0 #2c5a80;
   margin-bottom: 3px; }
-  .butt:active {
-    -webkit-transform: scale(0.98);
-    -ms-transform: scale(0.98);
-    transform: scale(0.98);
-    transition: transform 0.1s; }
+
+.butt:active {
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+  transition: transform 0.1s; }
 
 @media screen and (min-width: 868px) and (max-width: 968px) {
   .circle {
@@ -850,8 +854,8 @@ ul.menu .sub-menuCatalog:hover {
 @media screen and (min-width: 668px) and (max-width: 867px) {
   .one-block .first-line {
     font-size: 3.5em; }
-    .one-block .first-line .second-list {
-      font-size: 1.5em; }
+  .one-block .first-line .second-list {
+    font-size: 1.5em; }
   .circle {
     width: 85px;
     height: 85px;
@@ -866,18 +870,18 @@ ul.menu .sub-menuCatalog:hover {
   .one-block .first-line {
     font-size: 3em;
     margin-bottom: 0; }
-    .one-block .first-line .product {
-      max-width: 100%;
-      text-align: center; }
-    .one-block .first-line .product__image {
-      position: static;
-      display: inline-block;
-      margin: 20px 0 5px;
-      max-width: 100%;
-      width: 100%;
-      text-align: center; }
-    .one-block .first-line .product__brand {
-      text-align: center; }
+  .one-block .first-line .product {
+    max-width: 100%;
+    text-align: center; }
+  .one-block .first-line .product__image {
+    position: static;
+    display: inline-block;
+    margin: 20px 0 5px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center; }
+  .one-block .first-line .product__brand {
+    text-align: center; }
   .one-block .down-block-left {
     margin: 0 auto;
     width: 100%;
@@ -984,6 +988,12 @@ ul.menu .sub-menuCatalog:hover {
 
 .four {
   padding: 6px 50px 59px 50px; }
+
+@media screen and (max-width: 370px) {
+  .four {
+    overflow-x: scroll; }
+    .four .section {
+      min-width: 370px; } }
 
 .tovar-first-line {
   font-family: "OpenSans Bold", Arial, sans-serif;
@@ -1463,6 +1473,28 @@ ul.menu .sub-menuCatalog:hover {
     left: 141px;
     top: -15px; } }
 
+@media screen and (max-width: 600px) {
+  .bigScheme {
+    display: none; }
+  .smallScheme {
+    vertical-align: top;
+    background-image: url("../image/schema.jpg");
+    display: block;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+  .six {
+    padding: 0; } }
+
+@media screen and (max-width: 480px) {
+  .smallScheme {
+    height: 350px; } }
+
+@media screen and (max-width: 380px) {
+  .smallScheme {
+    height: 300px; } }
+
 .seven {
   padding: 70px 0 95px; }
   .seven .section {
@@ -1873,7 +1905,7 @@ ul.menu .sub-menuCatalog:hover {
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .menu-footer-block {
     float: right;
-    margin-right: 0; }
+    margin-right: 25px; }
   .contact-block {
     clear: both; } }
 
@@ -1885,13 +1917,23 @@ ul.menu .sub-menuCatalog:hover {
     clear: both; } }
 
 @media screen and (max-width: 479px) {
+  .footer {
+    text-align: center; }
   .menu-footer-block {
     display: block;
-    margin-right: 0;
+    margin: 35px 0;
     float: none;
     clear: both; }
+    .menu-footer-block .menu-footer {
+      text-align: center; }
   .contact-block {
-    clear: both; } }
+    clear: both; }
+  .oplata-block {
+    float: none;
+    margin: 0 auto; }
+  .contact-block {
+    margin: 0 auto;
+    float: none; } }
 
 .modal {
   z-index: 99;
@@ -2106,8 +2148,9 @@ ul.menu .sub-menuCatalog:hover {
 @media screen and (max-width: 768px) {
   .imageDelivery {
     max-width: 60%;
-    margin: 10px 0;
-    float: none; }
+    float: none;
+    margin: 10px auto;
+    display: block; }
   .secondaryHeader {
     width: 100%; } }
 
@@ -2120,8 +2163,10 @@ ul.menu .sub-menuCatalog:hover {
 
 .tarif {
   padding: 32px 0 54px; }
+
+@media screen and (max-width: 500px) {
   .tarif .section {
-    overflow: inherit; }
+    overflow-x: scroll; } }
 
 .mainHeader-tarif {
   text-align: center;
@@ -2133,6 +2178,7 @@ ul.menu .sub-menuCatalog:hover {
   margin: 25px 0 47px 0;
   font-family: 'OpenSans Bold', Arial, sans-serif;
   width: 100%;
+  min-width: 460px;
   border-collapse: collapse;
   border-spacing: 0; }
   .tarif__table th:first-of-type {
@@ -2449,6 +2495,12 @@ ul.menu .sub-menuCatalog:hover {
 
 .shopping_cart {
   padding: 27px 0 53px; }
+
+@media screen and (max-width: 410px) {
+  .shopping_cart {
+    overflow-x: scroll; }
+    .shopping_cart .section {
+      min-width: 415px; } }
 
 .orderSettings {
   display: inline-block;
