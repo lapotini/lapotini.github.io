@@ -20,7 +20,6 @@
   font-style: normal; }
 
 .wrapper {
-  max-width: 1200px;
   margin: 0 auto; }
 
 aside {
@@ -30,7 +29,7 @@ aside {
   padding: 20px;
   box-sizing: border-box;
   float: left;
-  min-height: 2200px; }
+  min-height: 1500px; }
 
 .aside__menu {
   font-family: 'AvenirNextLtProMedium', Arial, sans-serif;
@@ -140,6 +139,8 @@ header {
   height: 504px;
   background-image: url("../../img/woman.jpg");
   background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: inline-block;
   position: relative;
   box-sizing: border-box;
@@ -267,6 +268,7 @@ main {
   box-sizing: border-box; }
 
 .main__header {
+  font-family: "AvenirNextLtProDemi", Arial, sans-serif;
   font-size: 16px;
   letter-spacing: 0.17em;
   font-weight: bold;
@@ -291,8 +293,6 @@ main {
     font-family: "AvenirNextLtProDemi", Arial, sans-serif;
     color: #000;
     font-weight: bold; }
-  .subcats i {
-    color: #bb70ce; }
 
 .subcats__left {
   float: left;
@@ -307,6 +307,10 @@ main {
     padding-left: 9px;
     padding-right: 0;
     letter-spacing: 0.07em; }
+
+.subcats a,
+.subcats select {
+  color: #943c95; }
 
 .subcats__right {
   display: inline-block;
@@ -370,6 +374,11 @@ main {
   overflow: hidden;
   min-width: 286px;
   position: relative; }
+  .videoBox figure,
+  .videoBox h2,
+  .videoBox h3,
+  .videoBox p {
+    max-width: 301px; }
 
 .videoImage {
   margin-bottom: 20px;
