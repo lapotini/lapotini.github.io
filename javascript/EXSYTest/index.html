@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EXSY (Test task)</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:700|PT+Sans:400,700&subset=cyrillic-ext" rel="stylesheet">    <link rel="stylesheet" href="css/dist/reset.css">
+    <link rel="stylesheet" href="css/dist/style.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.jcarousel.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header>
+    <div class="header__top">
+        <div class="logo">
+            <h3>Богдановский</h3>
+
+            <h2>КАРЬЕР</h2>
+        </div>
+        <a id="openButton" href=""></a>
+        <ul id="menuTop">
+            <li><a href="#anch-1">ПРОИЗВОДСТВО</a></li>
+            <li><a href="#anch-2">АДРЕС КАРЬЕРА</a></li>
+        </ul>
+        <a href="javascript:;" class="callback">Заказать звонок</a>
+    </div>
+    <div class="slider" id="jcarousel">
+
+        <ul>
+            <li><img src="img/slider.jpg" alt=""/></li>
+            <li><img src="img/slider2.jpg" alt=""/></li>
+            <li><img src="img/slider3.jpg" alt=""/></li>
+        </ul>
+        <a class="jcarousel-prev" href="javascript:;"><span class="buttonTriangle-prev"></span></a>
+        <a class="jcarousel-next" href="javascript:;"><span class="buttonTriangle-next"></span></a>
+    </div>
+</header>
+<main id="anch-1">
+    <div class="content">
+        <h2 class="content__header">ПРОИЗВОДИМ И ПРОДАЕМ ЩЕБЕНЬ</h2>
+
+        <p class="content__text">Площадь участка 96,1 га. Щебень и гравий из плотных пород для строительных работ.
+            Прочность соответствует марке 800 (ДР-12). Запасы по гравию 28 %. Пески и пески-отсевы Богдановского-2
+            участка могут быть использованы в качестве строительного и дорожного материала. Мощность толщи 12-22,1
+            метра. Уровень грунтовых вод расположен ниже подошвы полезной толщи. Концентрация радионуклидов
+            соответствует 1 классу СП 2.6.1.758-99.</p>
+
+        <p class="content__text">Щебень 20×40 пригоден в производстве бетона и изготовлении конструкций из него, для
+            дорожного строительства при закладке фундамента зданий, при возведении производственных всех видов
+            сооружений и др.</p>
+
+        <h2 class="content__header">АДРЕС КАРЬЕРА</h2>
+
+        <p id="anch-2" class="content__text adress"><img src="img/marker.png" alt=""/>поселок Ханино, Суворовский район,
+            Тульская область,
+            Россия</p>
+
+    </div>
+    <div class="contacts">
+        <h2>КОНТАКТЫ</h2>
+
+        <h3>Звоните</h3>
+
+        <p>8(800)555-93-99</p>
+
+        <p>8(495)638-55-85</p>
+    </div>
+</main>
+<footer>
+    <div id="YMapsID" class="map">
+
+    </div>
+    <div class="copyright">© 2015, Copyright</div>
+
+</footer>
+
+
+<div class="callbackModal">
+    <div class="callbackModal_bg"></div>
+    <div class="form">
+        <h4>Заказ обратного звонка</h4>
+        <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваша почта">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+<script src="js/script.js"></script>
+
+</html>
