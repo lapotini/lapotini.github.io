@@ -1,0 +1,149 @@
+@media screen and (max-width: 570px) {
+
+  header,
+  section,
+  footer {
+    max-width: 570px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  header {
+
+    #openButton {
+      display: inline-block;
+      float: right;
+      background: url("../../img/smallMenu.png");
+      width: 53px;
+      height: 40px;
+      content: '';
+    }
+    .menuTop {
+      float: right;
+      clear: both;
+      display: none;
+      text-align: right;
+      li {
+        display: block;
+      }
+      .menuTop__link {
+        display: block;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 1.9em;
+      }
+    }
+
+  }
+  .slider {
+    clear: both;
+  }
+
+  /////////////
+
+  .portfolio_columnWrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+  .portfolio__column {
+    width: 100%;
+    min-width: 190px;
+    max-width: 320px;
+    margin-bottom: 30px;
+  }
+
+  /////////////
+  .products {
+    padding-bottom: 80px;
+  }
+  .products__header {
+    font-size: 50px;
+    margin-bottom: 45px;
+
+  }
+
+  .products__block {
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+  .products__block__item {
+    margin-bottom: 35px;
+  }
+
+  ////////////
+
+  .portfolioSmall__header {
+    font-size: 50px;
+  }
+
+  .portfolioSmall__leftBlock {
+    padding-right: 0;
+
+    margin: 0 0 30px;
+    float: none;
+    width: 100%;
+    text-align: center;
+    h4 {
+      font-size: 25px;
+
+    }
+
+    h5 {
+      font-size: 14px;
+    }
+
+  }
+
+  .portfolioSmall__rightBlock {
+    width: 100%;
+    padding: 0 8%;
+    float: none;
+    text-align: center;
+
+    p {
+      font-size: 14px;
+      //line-height: 1.2em;
+    }
+  }
+  .portfolioSmall {
+    .jcarousel-pagination {
+
+      margin-top: 30px;
+    }
+  }
+
+  //////////
+
+  footer {
+    padding: 79px 25px 101px;
+
+  }
+  .footer__header {
+    font-size: 50px;
+  }
+
+  .contacts {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  form {
+    width: 60%;
+    text-align: center;
+    min-width: 220px;
+    margin: 40px auto 0;
+    float: none;
+    input {
+      width: 100%;
+    }
+
+  }
+
+}

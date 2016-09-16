@@ -1,0 +1,183 @@
+@media screen and (max-width: 860px) {
+
+  header,
+  section,
+  footer {
+    max-width: 860px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .menuTop {
+      .menuTop__link {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .slider {
+    p {
+      font-size: 20px;
+    }
+    .sliderText__header {
+      font-size: 44px;
+    }
+
+    .sliderText__button {
+      margin-top: 30px;
+
+      letter-spacing: 0;
+    }
+  }
+  .content__header {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+
+  .article__imageWrapper {
+    display: block;
+    width: 100%;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .article {
+    margin-bottom: 50px;
+  }
+
+  .article__textWrapper {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    padding-left: 0;
+    float: none;
+    margin: 20px auto 0;
+    h4 {
+      font-size: 20px;
+      margin-top: 0;
+    }
+    h3 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .article__button {
+      margin-top: 40px;
+    }
+  }
+  .article:nth-of-type(even) {
+    .article__textWrapper {
+      padding-right: 0;
+      float: none;
+      padding-left: 0;
+    }
+  }
+
+  ///
+  .portfolio_columnWrapper {
+    margin-top: 40px;
+  }
+  .portfolio__column {
+    width: 31.65%;
+    min-width: 165px;
+  }
+
+  /////////////
+
+  .products__header {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 93px;
+
+  }
+
+  .products__block {
+    width: 96%;
+
+  }
+
+  ////////////
+
+  .portfolioSmall {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .portfolioSmall__header {
+
+    margin-bottom: 50px;
+  }
+
+  .portfolioSmall__leftBlock {
+    text-align: right;
+    padding-right: 4%;
+    margin-right: 3%;
+
+    h4 {
+      font-size: 30px;
+
+    }
+
+    h5 {
+      font-size: 14px;
+    }
+
+  }
+
+  .portfolioSmall__rightBlock {
+    width: 49%;
+    padding-right: 14%;
+
+    p {
+      font-size: 14px;
+      //line-height: 1.2em;
+    }
+  }
+
+  /////////
+
+  footer {
+    padding: 79px 25px 101px;
+
+  }
+  .footer__header {
+
+    margin-bottom: 50px;
+  }
+
+  .contacts {
+    width: 54%;
+    margin-right: 1%;
+  }
+  .contactsList__item {
+
+    font-size: 12px;
+
+  }
+
+  form {
+    width: 45%;
+    input {
+      width: 85%;
+
+      font-size: 12px;
+      margin-bottom: 38px;
+    }
+
+    .form__button {
+      margin-top: 10px;
+    }
+
+  }
+
+}
+
