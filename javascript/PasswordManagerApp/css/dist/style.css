@@ -3,6 +3,9 @@ body {
 
 .container {
   max-width: 1200px; }
+.userPage{
+  min-width: 600px;
+}
 
 .form-signin {
   margin: 150px auto 0;
